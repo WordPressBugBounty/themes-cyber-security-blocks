@@ -4,7 +4,7 @@ Contributors: pewilliams
 Requires at least: 6.1
 Tested up to: 6.6
 Requires PHP: 5.6
-Stable tag: 2.6
+Stable tag: 2.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: blog, portfolio, e-commerce, one-column, two-columns, custom-colors, custom-menu, custom-logo, sticky-post, threaded-comments, right-sidebar, left-sidebar, grid-layout, custom-background, rtl-language-support, featured-images, wide-blocks, editor-style, full-site-editing, block-patterns, block-styles, style-variations, template-editing, translation-ready
@@ -57,6 +57,11 @@ https://github.com/matthieua/WOW
 Copyright 2021, Daniel Eden
 License: 2.1 https://github.com/animate-css/animate.css/blob/main/LICENSE
 https://github.com/animate-css/animate.css
+
+* TGM
+GaryJones Copyright (C) 1989, 1991
+https://github.com/TGMPA/TGM-Plugin-Activation/blob/develop/LICENSE.md
+License: GNU General Public License v2.0
 
 * Font Awesome Free 5.15.3
 Copyright, fontawesome
@@ -155,5 +160,9 @@ Cyber Security Blocks is distributed under the terms of the GNU GPL
 
 = 2.6 =
 * Updated style variation.
-* Updated description.
+* Resolved 
 
+= 2.7 =
+* Resolved main tag issue.
+* Updated pot file.
+* Added tgm file.

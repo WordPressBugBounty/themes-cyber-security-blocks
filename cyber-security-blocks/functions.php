@@ -137,3 +137,5 @@ require get_parent_theme_file_path( '/inc/dashboard/dashboard.php' );
 require get_template_directory() . '/custom-setting.php';
 
 require get_parent_theme_file_path( '/inc/customizer/customizer.php' );
+
+require get_template_directory() .'/inc/TGM/tgm.php';

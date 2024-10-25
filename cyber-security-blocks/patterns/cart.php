@@ -6,8 +6,7 @@
  */
 ?>
 
-<!-- wp:group {"layout":{"type":"constrained","contentSize":"80%"}} -->
-<div class="wp-block-group"><!-- wp:woocommerce/cart -->
+<!-- wp:woocommerce/cart -->
 <div class="wp-block-woocommerce-cart alignwide is-loading"><!-- wp:woocommerce/filled-cart-block -->
 <div class="wp-block-woocommerce-filled-cart-block"><!-- wp:woocommerce/cart-items-block -->
 <div class="wp-block-woocommerce-cart-items-block"><!-- wp:woocommerce/cart-line-items-block -->
@@ -85,5 +84,4 @@
 
 <!-- wp:woocommerce/product-new {"columns":4,"rows":1} /--></div>
 <!-- /wp:woocommerce/empty-cart-block --></div>
-<!-- /wp:woocommerce/cart --></div>
-<!-- /wp:group -->
+<!-- /wp:woocommerce/cart -->

@@ -1,12 +1,12 @@
 <!-- wp:template-part {"slug":"header","theme":"cyber-security-blocks","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"default"}} -->
-<main class="wp-block-group" style="margin-top:0px;margin-bottom:0px">
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px">
 
 <!-- wp:pattern {"slug":"cyber-security-blocks/header-image"} /-->
 
-<!-- wp:group {"layout":{"type":"constrained","contentSize":"80%"}} -->
-<div class="wp-block-group"><!-- wp:woocommerce/checkout -->
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained","contentSize":"80%"}} -->
+<main class="wp-block-group"><!-- wp:woocommerce/checkout -->
 <div class="wp-block-woocommerce-checkout alignwide wc-block-checkout is-loading"><!-- wp:woocommerce/checkout-fields-block -->
 <div class="wp-block-woocommerce-checkout-fields-block"><!-- wp:woocommerce/checkout-express-payment-block -->
 <div class="wp-block-woocommerce-checkout-express-payment-block"></div>
@@ -67,7 +67,8 @@
 <div class="wp-block-woocommerce-checkout-order-summary-coupon-form-block"></div>
 <!-- /wp:woocommerce/checkout-order-summary-coupon-form-block -->
 
-<!-- wp:woocommerce/checkout-order-summary-subtotal-block -->
+<!-- wp:woocommerce/checkout-order-summary-totals-block -->
+<div class="wp-block-woocommerce-checkout-order-summary-totals-block"><!-- wp:woocommerce/checkout-order-summary-subtotal-block -->
 <div class="wp-block-woocommerce-checkout-order-summary-subtotal-block"></div>
 <!-- /wp:woocommerce/checkout-order-summary-subtotal-block -->
 
@@ -86,10 +87,11 @@
 <!-- wp:woocommerce/checkout-order-summary-taxes-block -->
 <div class="wp-block-woocommerce-checkout-order-summary-taxes-block"></div>
 <!-- /wp:woocommerce/checkout-order-summary-taxes-block --></div>
+<!-- /wp:woocommerce/checkout-order-summary-totals-block --></div>
 <!-- /wp:woocommerce/checkout-order-summary-block --></div>
 <!-- /wp:woocommerce/checkout-totals-block --></div>
-<!-- /wp:woocommerce/checkout --></div>
-<!-- /wp:group --></main>
+<!-- /wp:woocommerce/checkout --></main>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","theme":"cyber-security-blocks","tagName":"footer","className":"custom-footer-class"} /-->

@@ -6,8 +6,8 @@
  */
 ?>
 
-<!-- wp:group {"className":"about-us","layout":{"type":"constrained","contentSize":"75%"}} -->
-<div class="wp-block-group about-us"><!-- wp:spacer {"height":"58px"} -->
+<!-- wp:group {"tagName":"main","className":"about-us","layout":{"type":"constrained","contentSize":"75%"}} -->
+<main class="wp-block-group about-us"><!-- wp:spacer {"height":"58px"} -->
 <div style="height:58px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -121,5 +121,5 @@
 
 <!-- wp:spacer {"height":"58px"} -->
 <div style="height:58px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></div>
+<!-- /wp:spacer --></main>
 <!-- /wp:group -->
