@@ -1,40 +1,57 @@
-.getting-started__header {
-    background: #fff;
-    padding: 15px;
-    float: left;
-    width: -moz-available;          /* WebKit-based browsers will ignore this. */
-    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-    width: fill-available;
-    margin-bottom: 10px;
+.appearance_page_cyber-security-blocks-guide-page{
+    background-color: #f5f5f5;
 }
-.getting-started__header h2,.getting-started__header p {
+.getting-started__header {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    gap: 20px;
+    padding: 15px;
+    margin-right: 20px;
+}
+.getting-started__header h2{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.leftbox h3,.leftbox h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+.box-right-main h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.leftbox .button-primary{
+    margin-bottom: 20px;
+}
+.box-right-main li{
+    font-size: 13px;
+}
+.getting-started__header p {
     margin: 0;
 }
-.getting-started .container {
+.header-box-right {
+    text-align: right;
+}
+.getting-started .box-container{
     width: 1000px;
     margin: 0 auto;
 }
-.getting-started .col-md-9 {
+.getting-started .box-left-main {
     float: left;
-    width: 65%;
+    width: 60%;
     padding: 15px;
     background: #fff;
     box-shadow: 0 0 0 1px rgb(200 215 225 / 50%), 0 1px 2px #ddd;
 }
-.getting-started .col-md-3 {
-    width: 28%;
+.getting-started .box-right-main {
+    width: 30%;
     float: right;
     background: #fff;
     padding: 15px;
     box-shadow: 0 0 0 1px rgb(200 215 225 / 50%), 0 1px 2px #ddd;
-}
-.getting-started__header .col-md-10 {
-    float: left;
-    width: 75%;
-}
-.getting-started__header .col-md-2 {
-    width: 20%;
-    float: right;
 }
 .btn_box {
     text-align: right;
@@ -59,8 +76,8 @@
     background: #bd2130;
     border-color: #bd2130;
 }
-.wrap.getting-started .buynow:hover,.notice-buttons-box .buynow:hover,
-.wrap.getting-started .buynow:focus,.notice-buttons-box .buynow:focus {
+.wrap.getting-started .buynow:focus,.wrap.getting-started .buynow:hover,
+.notice-buttons-box .buynow:focus,.notice-buttons-box .buynow:hover {
     color: #28a745;
     border-color: #28a745;
     background: transparent;
@@ -72,31 +89,48 @@
     background: transparent;
 }
 .wrap.getting-started .docs:hover,.notice-buttons-box .theme-install:hover,
-.wrap.getting-started .docs:hover,.notice-buttons-box .theme-install:hover {
+.wrap.getting-started .docs:focus,.notice-buttons-box .theme-install:focus {
     color: #bd2130;
     border-color: #bd2130;
+    background: transparent;
+}
+.notice-buttons-box .plugin-install:hover,
+.notice-buttons-box .plugin-install:focus{
+    color: #9377e1;
+    border-color: #9377e1;
     background: transparent;
 }
 .pro-links {
     margin: 0px -2px;
 }
+.pro-links a{
+    font-size: 12px !important;
+    line-height: 2.5 !important;
+    min-height: auto;
+}
 .notice-div{
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    padding: 3px;
+    padding: 10px 3px;
 }
-.theme-name{
-    margin: 0;
+.notice-div .theme-name{
     padding: 0;
-    color: #000;
-    font-size: 15px;
-    font-weight: 500;
+    margin: 0;
+    color: #3a928b;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.notice-div h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
 }
 .notice-div .button-primary{
     padding: 3px 15px;
 }
-
 .notice-buttons-box{
     display: flex;
     justify-content: right; 
@@ -107,12 +141,65 @@
     margin-right: 10px;
 }
 
-@media screen and (max-width:600px){
-    .notice-div,.notice-buttons-box{
+@media screen  and (max-width:1199px){
+    .getting-started .box-container{
+        width: 100%;
+    }
+    .getting-started .box-left-main{
+        width: 50%;
+    }
+    .getting-started .box-right-main{
+        width: 40%;
+    }
+}
+@media screen and (max-width:767px){
+    .btn_box{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .getting-started__header{
         display: block;
         text-align: center;
     }
-    .notice-buttons-box .theme-install{
+    .getting-started .box-left-main{
+        width: 95%;
+    }
+    .getting-started .box-right-main{
+        float: left;
+        width: 95%;
+        margin-top: 20px;
+    }
+    .getting-started .box-right-main h3{
+        text-align: center;
+    }
+    .pro-links{
+        text-align: center;
+    }
+    .notice-div{
+        display: block;
+        text-align: center;
+    }
+    .notice-buttons-box{
+        justify-content: center;
+    }
+    .notice-img{
         margin-top: 10px;
+    }
+}
+@media screen and (max-width:699px){
+    .notice-buttons-box{
+        display: block;
+    }
+    .notice-div .button-primary {
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width:575px){
+    .getting-started__header .button-primary,.pro-links a {
+        margin-bottom: 3px !important;
+    }
+    .getting-started .box-left-main,
+    .getting-started .box-right-main {
+        width: 91%;
     }
 }

@@ -1,0 +1,1468 @@
+# Copyright (C) 2024 pewilliams
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cyber Security Blocks 2.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/cyber-security-"
+"blocks\n"
+"POT-Creation-Date: 2024-10-30T17:07:25+05:30\n"
+"PO-Revision-Date: 2024-10-30 17:39+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: cyber-security-blocks\n"
+
+#. Theme Name of the theme
+#: style.css block-patterns.php:17 functions.php:109
+msgid "Cyber Security Blocks"
+msgstr "Cyber Security Blocks"
+
+#. Theme URI of the theme
+#: style.css
+msgid ""
+"https://www.ovationthemes.com/products/free-cyber-security-wordpress-theme"
+msgstr ""
+"https://www.ovationthemes.com/products/free-cyber-security-wordpress-theme"
+
+#. Description of the theme
+#: style.css
+msgid ""
+"Cyber Security Blocks is a comprehensive and visually engaging solution "
+"designed specifically for websites related to cybersecurity, data "
+"protection, threat management, secure networks, digital safety, IT security, "
+"risk assessment, network defense, cyber threats, security solutions, "
+"encryption services, firewall protection, security compliance, security "
+"consulting, cyber resilience and information security services. This theme "
+"seamlessly combines a sleek and professional design with robust "
+"functionalities to cater to the needs of cybersecurity professionals, "
+"technology firms, and organizations focused on safeguarding digital assets. "
+"The theme features a modern and clean layout, incorporating a balanced color "
+"scheme that reflects the seriousness of the cybersecurity domain while "
+"maintaining a user-friendly interface. Furthermore, it offers a range of "
+"customizable blocks and sections, allowing users to showcase key information "
+"effectively. These blocks include sections for services offered, team "
+"members, client testimonials, and featured case studies, providing a "
+"comprehensive overview of the cybersecurity expertise and capabilities of "
+"the website owner. Navigating through the theme, users will find intuitive "
+"menus and strategically placed call-to-action elements, enhancing the "
+"overall user experience. The responsive design ensures that the website "
+"functions seamlessly across various devices, accommodating the diverse ways "
+"users access cybersecurity-related information. The theme also supports "
+"essential functionalities for cybersecurity websites, such as secure contact "
+"forms, blog sections for sharing industry insights and updates, and "
+"integration with security plugins for added protection against online "
+"threats. Additionally, it also includes sections for showcasing "
+"certifications, partnerships, or notable achievements in the cybersecurity "
+"field. Demo: https://trial.ovationthemes.com/cyber-security-services/"
+msgstr ""
+"Cyber Security Blocks is een uitgebreide en visueel aantrekkelijke oplossing "
+"die specifiek is ontworpen voor websites die zich richten op cyberbeveiliging, "
+"gegevensbescherming, dreigingsbeheer, veilige netwerken, digitale veiligheid, "
+"IT-beveiliging, risicobeoordeling, netwerkverdediging, cyberdreigingen, "
+"beveiligingsoplossingen, encryptiediensten, firewallbescherming, "
+"beveiligingsnaleving, beveiligingsadvies, cyberweerbaarheid en "
+"informatieveiligheidsdiensten. Dit thema combineert naadloos een strak en "
+"professioneel ontwerp met robuuste functionaliteiten om te voldoen aan de "
+"behoeften van cyberbeveiligingsprofessionals, technologiebedrijven en "
+"organisaties die zich richten op het beschermen van digitale activa. Het "
+"thema biedt een modern en strak ontwerp, met een uitgebalanceerd kleurenpalet "
+"dat de ernst van het cyberbeveiligingsdomein weerspiegelt en tegelijkertijd "
+"een gebruiksvriendelijke interface behoudt. Bovendien biedt het een reeks "
+"aanpasbare blokken en secties waarmee gebruikers belangrijke informatie "
+"effectief kunnen presenteren. Deze blokken omvatten secties voor aangeboden "
+"diensten, teamleden, klantgetuigenissen en uitgelichte casestudy's, die een "
+"uitgebreid overzicht geven van de cyberbeveiligingsexpertise en capaciteiten "
+"van de website-eigenaar. Bij het navigeren door het thema vinden gebruikers "
+"intuïtieve menu's en strategisch geplaatste call-to-action elementen, wat de "
+"algehele gebruikerservaring verbetert. Het responsieve ontwerp zorgt ervoor "
+"dat de website naadloos functioneert op verschillende apparaten, wat tegemoetkomt "
+"aan de diverse manieren waarop gebruikers informatie over cyberbeveiliging "
+"toegang. Het thema ondersteunt ook essentiële functionaliteiten voor "
+"cyberbeveiligingswebsites, zoals veilige contactformulieren, blogsecties voor "
+"het delen van branche-inzichten en updates, en integratie met beveiligingsplugins "
+"voor extra bescherming tegen online bedreigingen. Bovendien zijn er secties "
+"voor het tonen van certificeringen, samenwerkingen of opvallende prestaties op "
+"het gebied van cyberbeveiliging. Demo: https://trial.ovationthemes.com/cyber-security-services/"
+
+#. Author of the theme
+#: style.css
+msgid "pewilliams"
+msgstr "pewilliams"
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.ovationthemes.com/"
+msgstr "https://www.ovationthemes.com/"
+#: custom-setting.php:17
+msgid "Theme Settings"
+msgstr "Thema-instellingen"
+
+#: custom-setting.php:34
+msgid "Animation Settings"
+msgstr "Animatie-instellingen"
+
+#: custom-setting.php:41
+msgid "Enable Animations"
+msgstr "Animaties inschakelen"
+
+#: functions.php:110
+msgid ""
+"For information and detailed instructions, check out our theme documentation."
+msgstr ""
+"Voor informatie en gedetailleerde instructies, bekijk onze themadocumentatie."
+
+#: functions.php:113 inc/dashboard/dashboard.php:84
+msgid "Live Demo"
+msgstr "Live demo"
+
+#: functions.php:114 inc/dashboard/dashboard.php:85
+msgid "Buy Now"
+msgstr "Nu kopen"
+
+#: functions.php:115 inc/dashboard/dashboard.php:5
+msgid "Begin Installation"
+msgstr "Begin Installatie"
+
+#: inc/customizer/customizer.php:15 inc/customizer/customizer.php:23
+msgid "CYBER SECURITY PREMIUM"
+msgstr "CYBER SECURITY PREMIUM"
+
+#: inc/customizer/customizer.php:32 inc/dashboard/dashboard.php:23
+msgid "https://www.ovationthemes.com/products/wordpress-cyber-security-theme"
+msgstr "https://www.ovationthemes.com/products/wordpress-cyber-security-theme"
+
+#: inc/customizer/customizer.php:41 inc/customizer/customizer.php:65
+msgid "UPGRADE CYBER SECURITY PREMIUM"
+msgstr ""
+
+#: inc/customizer/customizer.php:48 inc/dashboard/dashboard.php:90
+msgid "Responsive Design"
+msgstr "Responsief ontwerp"
+
+#: inc/customizer/customizer.php:49 inc/dashboard/dashboard.php:91
+msgid "Demo Importer"
+msgstr "Demo-importeur"
+
+#: inc/customizer/customizer.php:50 inc/dashboard/dashboard.php:92
+msgid "Section Reordering"
+msgstr "Sectie herschikking"
+
+#: inc/customizer/customizer.php:51 inc/dashboard/dashboard.php:93
+msgid "Contact Page Template"
+msgstr "Contactpagina-sjabloon"
+
+#: inc/customizer/customizer.php:52 inc/dashboard/dashboard.php:94
+msgid "Multiple Blog Layouts"
+msgstr "Meerdere blogindelingen"
+
+#: inc/customizer/customizer.php:53 inc/dashboard/dashboard.php:95
+msgid "Unlimited Color Options"
+msgstr "Ongelimiteerde kleurinstellingen"
+
+#: inc/customizer/customizer.php:54 inc/dashboard/dashboard.php:96
+msgid "Cross Browser Support"
+msgstr "Ondersteuning voor meerdere browsers"
+
+#: inc/customizer/customizer.php:55 inc/dashboard/dashboard.php:97
+msgid "Detailed Documentation Included"
+msgstr "Uitgebreide documentatie inbegrepen"
+
+#: inc/customizer/customizer.php:56 inc/dashboard/dashboard.php:98
+msgid "WPML Compatible (Translation Ready)"
+msgstr "WPML-compatibel (vertalingsklaar)"
+
+#: inc/customizer/customizer.php:57 inc/dashboard/dashboard.php:99
+msgid "Woo-commerce Compatible"
+msgstr "Compatibel met WooCommerce"
+
+#: inc/customizer/customizer.php:58 inc/dashboard/dashboard.php:100
+msgid "Full Support"
+msgstr "Volledige ondersteuning"
+
+#: inc/customizer/customizer.php:59 inc/dashboard/dashboard.php:101
+msgid "10+ Sections"
+msgstr "10+ secties"
+
+#: inc/customizer/customizer.php:60 inc/dashboard/dashboard.php:102
+msgid "SEO Friendly"
+msgstr "SEO-vriendelijk"
+
+#: inc/customizer/customizer.php:61 inc/dashboard/dashboard.php:103
+msgid "Supper Fast"
+msgstr "Super snel"
+
+#: inc/dashboard/dashboard.php:14
+msgid "https://wordpress.org/support/theme/cyber-security-blocks/"
+msgstr "https://wordpress.org/support/theme/cyber-security-blocks/"
+
+#: inc/dashboard/dashboard.php:17
+msgid "https://wordpress.org/support/theme/cyber-security-blocks/reviews/"
+msgstr "https://wordpress.org/support/theme/cyber-security-blocks/reviews/"
+
+#: inc/dashboard/dashboard.php:20
+msgid "https://trial.ovationthemes.com/cyber-security-services/"
+msgstr "https://trial.ovationthemes.com/cyber-security-services/"
+
+#: inc/dashboard/dashboard.php:26
+msgid ""
+"https://trial.ovationthemes.com/docs/ot-cyber-security-services-pro-doc/"
+msgstr ""
+"https://trial.ovationthemes.com/docs/ot-cyber-security-services-pro-doc/"
+
+#: inc/dashboard/dashboard.php:29
+msgid ""
+"https://trial.ovationthemes.com/docs/ot-cyber-security-services-free-doc/"
+msgstr ""
+"https://trial.ovationthemes.com/docs/ot-cyber-security-services-free-doc/"
+
+#: inc/dashboard/dashboard.php:32
+msgid "Premium Cyber Security Theme"
+msgstr "Premium Cyber Security"
+
+#: inc/dashboard/dashboard.php:47
+msgid "Version: "
+msgstr "Versie: "
+
+#: inc/dashboard/dashboard.php:51
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: inc/dashboard/dashboard.php:52
+msgid "Review"
+msgstr "Beoordeling"
+
+#: inc/dashboard/dashboard.php:61 inc/dashboard/dashboard.php:76
+#: inc/dashboard/dashboard.php:86
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: inc/dashboard/dashboard.php:66 inc/dashboard/dashboard.php:68
+msgid "Edit Your Site"
+msgstr "Bewerk uw site"
+
+#: inc/dashboard/dashboard.php:67
+msgid "Now create your website with easy drag and drop powered by gutenburg."
+msgstr "Maak nu uw website met eenvoudige drag-and-drop, aangedreven door Gutenberg."
+
+#: inc/dashboard/dashboard.php:70 inc/dashboard/dashboard.php:72
+msgid "Visit Your Site"
+msgstr "Bezoek uw site"
+
+#: inc/dashboard/dashboard.php:71
+msgid "To check your website click here"
+msgstr "Klik hier om uw website te controleren"
+
+#: inc/dashboard/dashboard.php:74
+msgid "Theme Documentation"
+msgstr "Thema documentatie"
+
+#: inc/dashboard/dashboard.php:75
+msgid "Check the theme documentation to easily set up your website."
+msgstr "Bekijk de themadocumentatie om uw website eenvoudig in te stellen."
+
+#: inc/TGM/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Installeer vereiste plugins"
+
+#: inc/TGM/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Installeer plugins"
+
+#. translators: %s: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Plugin installeren: %s"
+
+#. translators: %s: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Plugin bijwerken: %s"
+
+#: inc/TGM/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Er is iets misgegaan met de plugin-API."
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Dit thema vereist de volgende plugin: %1$s."
+msgstr[1] "Dit thema vereist de volgende plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Dit thema raadt de volgende plugin aan: %1$s."
+msgstr[1] ""Dit thema raadt de volgende plugins aan: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:346
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"De volgende plugin moet worden bijgewerkt naar de nieuwste versie om ervoor te zorgen "
+"maximale compatibiliteit met dit thema: %1$s."
+msgstr[1] ""
+"De volgende plugins moeten worden bijgewerkt naar hun nieuwste versie om ervoor te zorgen "
+"maximale compatibiliteit met dit thema: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Er is een update beschikbaar voor: %1$s."
+msgstr[1] "Er zijn updates beschikbaar voor de volgende plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "De volgende vereiste plugin is momenteel inactief: %1$s."
+msgstr[1] "De volgende vereiste plugins zijn momenteel inactief: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "De volgende aanbevolen plugin is momenteel inactief: %1$s"
+msgstr[1] "De volgende aanbevolen plugins zijn momenteel inactief: %1$s."
+
+#: inc/TGM/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Begin met het installeren van de plugin"
+msgstr[1] "Begin met het installeren van plugins"
+
+#: inc/TGM/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""Begin met het bijwerken van de plugin"
+msgstr[1] "Begin met het bijwerken van plugins"
+
+#: inc/TGM/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Begin met het activeren van de plugin"
+msgstr[1] "Begin met het activeren van plugins"
+
+#: inc/TGM/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Terug naar de vereiste plugins-installateur"
+
+#: inc/TGM/class-tgm-plugin-activation.php:386
+#: inc/TGM/class-tgm-plugin-activation.php:827
+#: inc/TGM/class-tgm-plugin-activation.php:2533
+#: inc/TGM/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Terug naar het dashboard"
+
+#: inc/TGM/class-tgm-plugin-activation.php:387
+#: inc/TGM/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Plugin succesvol geactiveerd."
+
+#: inc/TGM/class-tgm-plugin-activation.php:388
+#: inc/TGM/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "De volgende plugin is succesvol geactiveerd:"
+msgstr[1] "De volgende plugins zijn succesvol geactiveerd:"
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Geen actie ondernomen. Plugin %1$s was al actief."
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:392
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin niet geactiveerd. Een hogere versie van %s is nodig voor dit thema."
+"Werk alstublieft de plugin bij."
+
+#. translators: 1: dashboard link.
+#: inc/TGM/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle plugins zijn succesvol geïnstalleerd en geactiveerd. %1$s"
+
+#: inc/TGM/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Negeer deze melding"
+
+#: inc/TGM/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Er zijn een of meer vereiste of aanbevolen plugins om te installeren, bij te werken of"
+"activeren."
+
+#: inc/TGM/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Neem contact op met de beheerder van deze site voor hulp"
+
+#: inc/TGM/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Deze plugin moet worden bijgewerkt om compatibel te zijn met uw thema."
+
+#: inc/TGM/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Bijwerken vereist"
+
+#: inc/TGM/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Het externe pluginpakket bevat geen map met de gewenste slug"
+"en hernoemen heeft niet gewerkt."
+
+#: inc/TGM/class-tgm-plugin-activation.php:934
+#: inc/TGM/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Neem contact op met de pluginprovider en vraag hen om hun plugin te verpakken "
+"volgens de WordPress-richtlijnen."
+
+#: inc/TGM/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Het externe pluginpakket bestaat uit meer dan één bestand, maar de bestanden zijn "
+"niet verpakt in een map."
+
+#: inc/TGM/class-tgm-plugin-activation.php:1121
+#: inc/TGM/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "en"
+
+#. translators: %s: version number
+#: inc/TGM/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Vereist""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Aanbevolen"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress-repository"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Externe bron"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Voorverpakt"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Niet geïnstalleerd"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Geïnstalleerd maar niet geactiveerd"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Actief"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Vereiste update niet beschikbaar"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Vereist bijwerking"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Bijwerken aanbevolen"
+
+#. translators: 1: install status, 2: update status
+#: inc/TGM/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: inc/TGM/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class="count">(%s)</span>"
+msgstr[1] ""Alle <span class="count">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/TGM/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Te installeren <span class="count">(%s)</span>"
+msgstr[1] "Te installeren <span class="count">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/TGM/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Update beschikbaar <span class="count">(%s)</span>"
+msgstr[1] "Update beschikbaar <span class="count">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/TGM/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Te activeren <span class="count">(%s)</span>"
+msgstr[1] "Te activeren <span class="count">(%s)</span>"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "onbekend"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Geïnstalleerde versie:"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Minimale vereiste versie:"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Beschikbare versie:"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Geen plugins om te installeren, bij te werken of te activeren."
+
+#: inc/TGM/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Bron"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Type"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Versie"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Status"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/TGM/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Installeer %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/TGM/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Werk bij %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/TGM/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Activeer %2$s"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgradebericht van de pluginontwikkelaar:"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Installeren"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Bijwerken"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Activeren"
+
+#: inc/TGM/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Geen plugins geselecteerd om te installeren. Geen actie ondernomen."
+
+#: inc/TGM/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Geen plugins geselecteerd om bij te werken. Geen actie ondernomen."
+
+#: inc/TGM/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Er zijn momenteel geen plugins beschikbaar om te installeren."
+
+#: inc/TGM/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Er zijn momenteel geen plugins beschikbaar om bij te werken."
+
+#: inc/TGM/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Geen plugins geselecteerd om te activeren. Geen actie ondernomen."
+
+#: inc/TGM/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Er zijn momenteel geen plugins beschikbaar om te activeren."
+
+#: inc/TGM/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Activatie van de plugin is mislukt"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/TGM/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s bijwerken (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/TGM/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Er is een fout opgetreden tijdens het installeren van %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "De installatie van %1$s is mislukt."
+
+#: inc/TGM/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Het installatie- en activeringsproces wordt gestart. Dit proces kan enige tijd duren "
+"terwijl het op sommige hosts enige tijd kan duren, dus wees alstublieft geduldig."
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s succesvol geïnstalleerd en geactiveerd."
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3509
+#: inc/TGM/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Toon details"
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3509
+#: inc/TGM/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Verberg details"
+
+#: inc/TGM/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Alle installaties en activeringen zijn voltooid."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/TGM/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s installeren en activeren (%2$d/%3$d)"
+
+#: inc/TGM/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Het installatieproces wordt gestart. Dit proces kan enige tijd duren op sommige "
+"hosts, dus wees alstublieft geduldig."
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s succesvol geïnstalleerd."
+
+#: inc/TGM/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Alle installaties zijn voltooid."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/TGM/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s installeren (%2$d/%3$d)"
+
+#: inc/TGM/tgm.php:11
+msgid "Ovation Elements"
+msgstr "Ovation Elements"
+
+#: patterns/404.php
+msgctxt "Pattern title"
+msgid "Page Not Found"
+msgstr "Pagina Niet Gevonden"
+
+#: patterns/404.php:15
+msgid "Page not found!"
+msgstr "Pagina Niet Gevonden!"
+
+#: patterns/404.php:19
+msgid "Sorry, the page you are looking for does not exist or has been moved."
+msgstr "Sorry, de pagina die u zoekt bestaat niet of is verplaatst."
+
+#: patterns/404.php:24
+msgid "Return Home"
+msgstr "Terug naar Home"
+
+#: patterns/about-us.php
+msgctxt "Pattern title"
+msgid "About Us"
+msgstr "Over Ons"
+
+#: patterns/about-us.php:38
+msgid "about us"
+msgstr "over ons"
+
+#: patterns/about-us.php:43
+msgid "we help you run your busines securly and succefully"
+msgstr "wij helpen u uw bedrijf veilig en succesvol te runnen"
+
+#: patterns/about-us.php:47
+msgid ""
+"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore "
+"eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, "
+"sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut "
+"perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+"doloremque laudantium,"
+msgstr ""
+"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore "
+"eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, "
+"sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut "
+"perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+"doloremque laudantium,"
+
+#: patterns/about-us.php:51
+msgid ""
+"totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi "
+"architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem "
+"quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni "
+"dolores."
+msgstr ""
+"totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi "
+"architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem "
+"quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni "
+"dolores."
+
+#: patterns/about-us.php:56 patterns/choose-us.php:50
+msgid "get the service"
+msgstr "krijg de service"
+
+#: patterns/about-us.php:73
+msgid "35+"
+msgstr "35+"
+
+#: patterns/about-us.php:79
+msgid "Year of experience in cyber security"
+msgstr "Jaren ervaring in cyberbeveiliging"
+
+#: patterns/about-us.php:90
+msgid "4k"
+msgstr "4k"
+
+#: patterns/about-us.php:94
+msgid "Cyber Security Project"
+msgstr "Cyberbeveiligingsproject"
+
+#: patterns/about-us.php:100
+msgid "234+"
+msgstr "234+"
+
+#: patterns/about-us.php:104
+msgid "Cyber Security Experts"
+msgstr "Cyberbeveiligingsexperts"
+
+#: patterns/about-us.php:110
+msgid "99%"
+msgstr "99%"
+
+#: patterns/about-us.php:114
+msgid "Client Retention Rate"
+msgstr "Klantbehoudpercentage"
+
+#: patterns/archive.php
+msgctxt "Pattern title"
+msgid "Archives"
+msgstr "Archieven"
+
+#: patterns/banner.php
+msgctxt "Pattern title"
+msgid "Banner"
+msgstr "Banner"
+
+#: patterns/banner.php:19
+msgid "SECURE AND GUARANTEED"
+msgstr "VEILIG EN GEGARANDEERD"
+
+#: patterns/banner.php:24
+msgid "We Provide The Best Cyber Security"
+msgstr "Wij Bieden De Beste Cyberbeveiliging"
+
+#: patterns/banner.php:28
+msgid ""
+"Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore "
+"etdolore magna aliqua ipsum suspendisse ultrices gravida. Risus commodo "
+"viverra maecenas accumsan lacus vel facilisis."
+msgstr ""
+"Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore "
+"etdolore magna aliqua ipsum suspendisse ultrices gravida. Risus commodo "
+"viverra maecenas accumsan lacus vel facilisis."
+
+#: patterns/banner.php:34
+msgid "get start now"
+msgstr "begin nu"
+
+#: patterns/banner.php:40
+msgid "Get A Free Quote"
+msgstr "Ontvang Een Gratis Offerte"
+#: patterns/cart.php
+msgctxt "Pattern title"
+msgid "Cart"
+msgstr "Winkelwagentje"
+
+#: patterns/cart.php:18
+msgid "You may be interested in…"
+msgstr "Misschien bent u geïnteresseerd in…"
+
+#: patterns/cart.php:74
+msgid "Your cart is currently empty!"
+msgstr "Uw winkelwagentje is momenteel leeg!"
+
+#: patterns/cart.php:82
+msgid "New in store"
+msgstr "Nieuw in de winkel"
+
+#: patterns/choose-us.php
+msgctxt "Pattern title"
+msgid "Choose Us"
+msgstr "Kies Ons"
+
+#: patterns/choose-us.php:18
+msgid "WHY CHOOSE US"
+msgstr "WAAROM KIEZEN VOOR ONS"
+
+#: patterns/choose-us.php:23
+msgid "We are your trusted parter in Cyber security and IT sector"
+msgstr "Wij zijn uw vertrouwde partner in de cyberbeveiliging en IT-sector"
+
+#: patterns/choose-us.php:27
+msgid ""
+"Duis aute irure dolor in reprehenderit in voluptate velse cillum dolore eu "
+"fugiat nulla pariatur. Excepteur sint occaecat cuptat non proident, sunt in "
+"culpa qui fficia deserunt mollit anim id est laborum perspiciatis unde omnis "
+"iste natus error sit voluptatem accusantium."
+msgstr ""
+"Duis aute irure dolor in reprehenderit in voluptate velse cillum dolore eu "
+"fugiat nulla pariatur. Excepteur sint occaecat cuptat non proident, sunt in "
+"culpa qui fficia deserunt mollit anim id est laborum perspiciatis unde omnis "
+"iste natus error sit voluptatem accusantium."
+
+#: patterns/choose-us.php:32
+msgid "Duis aute irure dolor in reprehenderit."
+msgstr "Duis aute irure dolor in reprehenderit."
+
+#: patterns/choose-us.php:36
+msgid "In voluptate velit esse cillum."
+msgstr "In voluptate velit esse cillum."
+
+#: patterns/choose-us.php:40
+msgid "Dolore eu fugiat nulla and pariatur."
+msgstr "Dolore eu fugiat nulla and pariatur."
+
+#: patterns/choose-us.php:44
+msgid "Excepteur sint occaecat cupidatat non proident."
+msgstr "Excepteur sint occaecat cupidatat non proident."
+
+#: patterns/choose-us.php:63
+msgid "Our Security Operations"
+msgstr "Onze Beveiligingsoperaties"
+
+#: patterns/choose-us.php:69 patterns/our-services.php:95
+msgid "Cyber Security"
+msgstr "Cyberbeveiliging"
+
+#: patterns/choose-us.php:73
+msgid "Risk Assessment"
+msgstr "Risicobeoordeling"
+
+#: patterns/choose-us.php:77
+msgid "Network Security"
+msgstr "Netwerkbeveiliging"
+
+#: patterns/choose-us.php:81
+msgid "Server Monitoring"
+msgstr "Serverbewaking"
+
+#: patterns/choose-us.php:85
+msgid "Email Protection"
+msgstr "E-mailbeveiliging"
+
+#: patterns/choose-us.php:89
+msgid "Backup &amp; Recovery"
+msgstr "Back-up & Herstel"
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr "Footer"
+
+#: patterns/footer.php:25
+msgid "(312) 1234-56789"
+msgstr "(312) 1234-56789"
+
+#: patterns/footer.php:35
+msgid "support@example.com"
+msgstr "support@example.com"
+
+#: patterns/footer.php:40
+msgid "Follow Us:-"
+msgstr "Volg Ons:-"
+
+#: patterns/footer.php:56
+msgid "Usefull Links"
+msgstr "Handige Links"
+
+#: patterns/footer.php:78
+msgid "Information"
+msgstr "Informatie"
+
+#: patterns/footer.php:98 patterns/sidebar.php:12
+msgid "Search"
+msgstr "Zoeken"
+
+#: patterns/footer.php:108 patterns/our-services.php:47
+#: patterns/our-services.php:73 patterns/our-services.php:99
+#: patterns/our-services.php:127 patterns/our-services.php:153
+#: patterns/our-services.php:179
+msgid ""
+"Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et "
+"and the part of new memory dolore magna."
+msgstr ""
+"Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et "
+"and the part of new memory dolore magna."
+
+#: patterns/footer.php:119
+msgid "Cyber Security Blocks WordPress Theme"
+msgstr "Cyber Security Blocks WordPress-thema"
+
+#: patterns/footer.php:123
+msgid "Proudly powered by "
+msgstr "Trots aangedreven door"
+
+#: patterns/footer.php:123
+msgid "Ovation Themes"
+msgstr "Ovation Themes"
+
+#: patterns/footer.php:123
+msgid "and"
+msgstr "en"
+
+#: patterns/footer.php:123
+msgid "WordPress"
+msgstr "WordPress"
+
+#: patterns/header-image.php
+msgctxt "Pattern title"
+msgid "Header Image"
+msgstr "Headerafbeelding"
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr "Headerafbeelding"
+
+#: patterns/info-box.php
+msgctxt "Pattern title"
+msgid "Info Box"
+msgstr "Info Box"
+
+#: patterns/info-box.php:12
+msgid "Are You Ready for the Best Cyber Security Experience?"
+msgstr "Bent u klaar voor de beste cyberbeveiligingservaring?"
+
+#: patterns/info-box.php:16
+msgid "We’re confident you’ll be 100% satisfied With Our Awesome Services!"
+msgstr "We zijn ervan overtuigd dat u 100% tevreden zult zijn met onze geweldige diensten!"
+
+#: patterns/info-box.php:21
+msgid "Get Started"
+msgstr "Begin Nu"
+
+#: patterns/latest-news.php
+msgctxt "Pattern title"
+msgid "Latest News"
+msgstr "Laatste Nieuws"
+
+#: patterns/latest-news.php:12
+msgid "Latest News"
+msgstr "Laatste Nieuws"
+
+#: patterns/latest-news.php:17
+msgid "Latest From The News"
+msgstr "Het Laatste Nieuws"
+
+#: patterns/latest-news.php:53
+msgid "There is no post found"
+msgstr "Er is geen bericht gevonden"
+
+#: patterns/more-post.php
+msgctxt "Pattern title"
+msgid "More Post"
+msgstr "Meer Berichten"
+
+#: patterns/more-post.php:11
+msgid "More Articles &amp; Posts"
+msgstr "Meer Artikelen & Berichten"
+
+#: patterns/our-services.php
+msgctxt "Pattern title"
+msgid "Our Services"
+msgstr "Onze Diensten"
+
+#: patterns/our-services.php:16
+msgid "our services"
+msgstr "onze diensten"
+
+#: patterns/our-services.php:21
+msgid "Custom Services For Your Business"
+msgstr "Aangepaste Diensten Voor Uw Bedrijf"
+
+#: patterns/our-services.php:33 patterns/our-services.php:59
+#: patterns/our-services.php:85 patterns/our-services.php:113
+#: patterns/our-services.php:139 patterns/our-services.php:165
+msgid "Read More"
+msgstr "Lees Meer"
+
+#: patterns/our-services.php:43
+msgid "Cloud Storage Security"
+msgstr "Beveiliging van Cloudopslag"
+
+#: patterns/our-services.php:69
+msgid "Data Protection"
+msgstr "Gegevensbescherming"
+
+#: patterns/our-services.php:123
+msgid "Hacking Protection"
+msgstr "Bescherming tegen Hacking"
+
+#: patterns/our-services.php:149
+msgid "Website Protection"
+msgstr "Websitebeveiliging"
+
+#: patterns/our-services.php:175
+msgid "Identifying Threats"
+msgstr "Bedreigingen Identificeren"
+
+#: patterns/our-services.php:190
+msgid "View All Services"
+msgstr "Bekijk Alle Diensten"
+
+#: patterns/page-title.php
+msgctxt "Pattern title"
+msgid "Page Title"
+msgstr "Paginatitel"
+
+#: patterns/search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr "Zoeken"
+
+#: patterns/sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr "Zijkant"
+
+#: patterns/sidebar.php:12
+msgid "Search"
+msgstr "Zoeken"
+
+#: patterns/sidebar.php:22
+msgid "Popular Posts"
+msgstr "Populaire Berichten"
+
+#: patterns/sidebar.php:38
+msgid "Categories"
+msgstr "Categorieën"
+
+#: patterns/sidebar.php:48
+msgid "Archives"
+msgstr "Archieven"
+
+#: patterns/sidebar.php:58
+msgid "Tags"
+msgstr "Tags"
+
+#: patterns/sidebar.php:68
+msgid "Follow Us"
+msgstr "Volg Ons"
+
+#: patterns/single-product.php
+msgctxt "Pattern title"
+msgid "Single Product"
+msgstr "Enkel Product"
+
+#: patterns/single-product.php:46
+msgid "Related Products"
+msgstr "Gerelateerde Producten"
+
+#: styles/blue.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr "Blauw"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "Basis"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Primair"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Ternary"
+msgstr "Tertiaal"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary Light"
+msgstr "Primair Licht"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Headings"
+msgstr "Kopteksten"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Secundair"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Second Bg"
+msgstr "Tweede Achtergrond"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Body Text"
+msgstr "Bodytekst"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Section Background"
+msgstr "Sectieachtergrond"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Footer Bg"
+msgstr "Footer Achtergrond"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr "Achtergrond"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr "Voorkant"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Border Color"
+msgstr "Randkleur"
+
+#: styles/blue.json styles/dark.json styles/red.json styles/sea-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Sidebar Shadow Color"
+msgstr "Zijkant Schaduwkleur"
+
+#: styles/dark.json
+msgctxt "Style variation name"
+msgid "Dark"
+msgstr "Donker"
+
+#: styles/red.json
+msgctxt "Style variation name"
+msgid "Red"
+msgstr "Rood"
+
+#: styles/sea-green.json
+msgctxt "Style variation name"
+msgid "Sea Green"
+msgstr "Zeegroen"
+
+#: theme.json
+msgctxt "Style variation name"
+msgid "Lite"
+msgstr ""Lite
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical heading to base"
+msgstr "Verticale kop naar basis"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical base to heading"
+msgstr "Verticale basis naar kop"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Heading to base"
+msgstr "Kop naar basis"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Base to heading"
+msgstr "Basis naar kop"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to base left"
+msgstr "Diagonale kop naar basis links"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to base right"
+msgstr "Diagonale kop naar basis rechts"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal base to heading"
+msgstr "Diagonale basis naar kop"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to base"
+msgstr "Diagonale kop naar basis"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical heading to primary"
+msgstr "Verticale kop naar primair"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical primary to heading"
+msgstr "Verticale primair naar kop"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Heading to primary"
+msgstr "Kop naar primair"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Primary to heading"
+msgstr "Primair naar kop"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to primary left"
+msgstr "Diagonale kop naar primair links"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to primary right"
+msgstr "Diagonale kop naar primair rechts"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to heading"
+msgstr "Diagonale primair naar kop"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to primary"
+msgstr "Diagonale kop naar primair"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical primary to ternary"
+msgstr "Verticaal primair naar tertiair"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical ternary to primary"
+msgstr "Verticaal tertiair naar primair"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Ternary to primary"
+msgstr "Tertiair naar primair"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Primary to ternary"
+msgstr "Primair naar tertiair"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to ternary left"
+msgstr "Diagonaal primair naar tertiair links"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to ternary right"
+msgstr "Diagonaal primair naar tertiair rechts"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal ternary to primary"
+msgstr "Diagonaal tertiair naar primair"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to ternary"
+msgstr "Diagonaal primair naar tertiair"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Jost"
+msgstr "Jost"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Body Text"
+msgstr "Bodytekst"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Small"
+msgstr "Extra Klein"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Klein"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Gemiddeld"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Regular"
+msgstr "Regulier"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Groot"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Extra Groot"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Big"
+msgstr "Groot"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr "Enorm"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Gigantic"
+msgstr "Gigantisch"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Banner Title"
+msgstr "Banner Titel"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Header"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Footer"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sidebar"
+msgstr "Zijkant"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Grid Layout(Archieve posts)"
+msgstr "Rasterindeling (Archiefberichten)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Left Sidebar(Archieve posts)"
+msgstr "Linker Zijkant (Archiefberichten)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Right Sidebar(Archieve posts)"
+msgstr "Rechter Zijkant (Archiefberichten)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Left Sidebar"
+msgstr "Pagina Linker Zijkant"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Right Sidebar"
+msgstr "Pagina Rechter Zijkant"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post Left Sidebar"
+msgstr "Bericht Linker Zijkant"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post No Sidebar"
+msgstr "Bericht Geen Zijkant"

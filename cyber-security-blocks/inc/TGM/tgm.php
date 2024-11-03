@@ -12,7 +12,7 @@ function cyber_security_blocks_register_recommended_plugins() {
 			'slug'             => 'ovation-elements',
 			'required'         => false,
 			'force_activation' => false,
-		),
+		)
 	);
 	$config = array();
 	cyber_security_blocks_tgmpa( $plugins, $config );
