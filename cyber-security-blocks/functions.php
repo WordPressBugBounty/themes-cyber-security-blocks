@@ -34,6 +34,8 @@ function cyber_security_blocks_setup() {
 	// Add support for responsive embedded content.
 	add_theme_support( 'responsive-embeds' );
 
+    add_theme_support('woocommerce');
+
 	// Enqueue editor styles.
 	add_editor_style( array( 'assets/css/editor-style.css' ) );
 	

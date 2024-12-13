@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Cyber Security Blocks 2.8\n"
+"Project-Id-Version: Cyber Security Blocks 2.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/cyber-security-blocks\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-30T17:07:25+05:30\n"
+"POT-Creation-Date: 2024-12-10T18:04:24+05:30\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: cyber-security-blocks\n"
@@ -17,7 +17,7 @@ msgstr ""
 #. Theme Name of the theme
 #: style.css
 #: block-patterns.php:17
-#: functions.php:109
+#: functions.php:111
 msgid "Cyber Security Blocks"
 msgstr ""
 
@@ -53,21 +53,21 @@ msgstr ""
 msgid "Enable Animations"
 msgstr ""
 
-#: functions.php:110
+#: functions.php:112
 msgid "For information and detailed instructions, check out our theme documentation."
 msgstr ""
 
-#: functions.php:113
+#: functions.php:115
 #: inc/dashboard/dashboard.php:84
 msgid "Live Demo"
 msgstr ""
 
-#: functions.php:114
+#: functions.php:116
 #: inc/dashboard/dashboard.php:85
 msgid "Buy Now"
 msgstr ""
 
-#: functions.php:115
+#: functions.php:117
 #: inc/dashboard/dashboard.php:5
 msgid "Begin Installation"
 msgstr ""
@@ -1395,10 +1395,20 @@ msgstr ""
 
 #: theme.json
 msgctxt "Custom template name"
+msgid "Page No Header Image"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
 msgid "Post Left Sidebar"
 msgstr ""
 
 #: theme.json
 msgctxt "Custom template name"
 msgid "Post No Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post No Header Image"
 msgstr ""

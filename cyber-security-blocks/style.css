@@ -5,9 +5,9 @@ Author: pewilliams
 Author URI: https://www.ovationthemes.com/
 Description: Cyber Security Blocks is a comprehensive and visually engaging solution designed specifically for websites related to cybersecurity, data protection, threat management, secure networks, digital safety, IT security, risk assessment, network defense, cyber threats, security solutions, encryption services, firewall protection, security compliance, security consulting, cyber resilience and information security services. This theme seamlessly combines a sleek and professional design with robust functionalities to cater to the needs of cybersecurity professionals, technology firms, and organizations focused on safeguarding digital assets. The theme features a modern and clean layout, incorporating a balanced color scheme that reflects the seriousness of the cybersecurity domain while maintaining a user-friendly interface. Furthermore, it offers a range of customizable blocks and sections, allowing users to showcase key information effectively. These blocks include sections for services offered, team members, client testimonials, and featured case studies, providing a comprehensive overview of the cybersecurity expertise and capabilities of the website owner. Navigating through the theme, users will find intuitive menus and strategically placed call-to-action elements, enhancing the overall user experience. The responsive design ensures that the website functions seamlessly across various devices, accommodating the diverse ways users access cybersecurity-related information. The theme also supports essential functionalities for cybersecurity websites, such as secure contact forms, blog sections for sharing industry insights and updates, and integration with security plugins for added protection against online threats. Additionally, it also includes sections for showcasing certifications, partnerships, or notable achievements in the cybersecurity field. Demo: https://trial.ovationthemes.com/cyber-security-services/
 Requires at least: 6.1
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
-Version: 2.8
+Version: 2.9
 License: GNU General Public License
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: cyber-security-blocks
@@ -726,7 +726,7 @@ footer ::marker{
     .post-grid-layout.wp-block-post-template{
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
-    .inner-cover-img h2{
+    .inner-cover-img h2,.without-cover-img h2{
         font-size: 30px !important;
     }
     
@@ -779,7 +779,7 @@ footer ::marker{
     .search-results .wp-block-post-template li:last-child{
         margin-bottom: 0;
     }
-    .inner-cover-img h2{
+    .inner-cover-img h2,.without-cover-img h2{
         font-size: 25px !important;
         text-align: center !important;
     }
