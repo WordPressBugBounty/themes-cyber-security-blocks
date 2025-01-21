@@ -31,7 +31,9 @@ define('CYBER_SECURITY_BLOCKS_FREE_DOC',__('https://trial.ovationthemes.com/docs
 if ( ! defined( 'CYBER_SECURITY_BLOCKS_THEME_NAME' ) ) {
 define('CYBER_SECURITY_BLOCKS_THEME_NAME',__('Premium Cyber Security Theme','cyber-security-blocks'));
 }
-
+if ( ! defined( 'CYBER_SECURITY_BLOCKS_BUNDLE_LINK' ) ) {
+define('CYBER_SECURITY_BLOCKS_BUNDLE_LINK',__('https://www.ovationthemes.com/products/wordpress-bundle','cyber-security-blocks'));
+}
 /**
  * Theme Info Page
  */
@@ -80,11 +82,12 @@ function cyber_security_blocks_guide() {
 				<h3><?php echo esc_html(CYBER_SECURITY_BLOCKS_THEME_NAME); ?></h3>
 				<img class="cyber_security_blocks_img_responsive" style="width: 100%;" src="<?php echo esc_url( $theme->get_screenshot() ); ?>" />
 				<div class="pro-links">
-					<hr>
-			    	<a class="button-primary livedemo" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_LIVE_DEMO ); ?>" target="_blank"><?php esc_html_e('Live Demo', 'cyber-security-blocks'); ?></a>
-					<a class="button-primary buynow" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUY_PRO ); ?>" target="_blank"><?php esc_html_e('Buy Now', 'cyber-security-blocks'); ?></a>
-					<a class="button-primary docs" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_PRO_DOC ); ?>" target="_blank"><?php esc_html_e('Documentation', 'cyber-security-blocks'); ?></a>
-					<hr>
+					<div class="pro-links-inner">
+						<a class="button-primary livedemo" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_LIVE_DEMO ); ?>" target="_blank"><?php esc_html_e('Live Demo', 'cyber-security-blocks'); ?></a>
+						<a class="button-primary buynow" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUY_PRO ); ?>" target="_blank"><?php esc_html_e('Buy Now', 'cyber-security-blocks'); ?></a>
+						<a class="button-primary docs" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_PRO_DOC ); ?>" target="_blank"><?php esc_html_e('Documentation', 'cyber-security-blocks'); ?></a>
+					</div>
+						<a class="button-primary bundle-btn" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUNDLE_LINK ); ?>" target="_blank"><?php esc_html_e('Wordpress Theme Bundle (100+ Themes at Just $89)', 'cyber-security-blocks'); ?></a>
 				</div>
 				<ul style="padding-top:10px">
 					<li class="upsell-cyber_security_blocks"> <div class="dashicons dashicons-yes"></div> <?php esc_html_e('Responsive Design', 'cyber-security-blocks');?> </li>                 

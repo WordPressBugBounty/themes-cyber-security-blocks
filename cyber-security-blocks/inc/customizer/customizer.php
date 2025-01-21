@@ -31,6 +31,8 @@ add_action( 'customize_register', 'cyber_security_blocks_customize_register' );
 
 define('CYBER_SECURITY_BLOCKS_PRO_LINK',__('https://www.ovationthemes.com/products/wordpress-cyber-security-theme','cyber-security-blocks'));
 
+define('CYBER_SECURITY_BLOCKS_BUNDLE_BTN',__('https://www.ovationthemes.com/products/wordpress-bundle','cyber-security-blocks'));
+
 /* Pro control */
 if (class_exists('WP_Customize_Control') && !class_exists('Cyber_Security_Blocks_Pro_Control')):
     class Cyber_Security_Blocks_Pro_Control extends WP_Customize_Control{
@@ -62,7 +64,7 @@ if (class_exists('WP_Customize_Control') && !class_exists('Cyber_Security_Blocks
                 </ul>
             </div>
             <div class="col-md upsell-btn upsell-btn-bottom">
-                <a href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_PRO_LINK ); ?>" target="blank" class="btn btn-success btn"><?php esc_html_e('UPGRADE CYBER SECURITY PREMIUM','cyber-security-blocks');?> </a>
+                <a href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUNDLE_BTN ); ?>" target="blank" class="btn btn-success btn"><?php esc_html_e('Wordpress Theme Bundle (100+ Themes at Just $89)','cyber-security-blocks');?> </a>
             </div>
         </label>
     <?php } }

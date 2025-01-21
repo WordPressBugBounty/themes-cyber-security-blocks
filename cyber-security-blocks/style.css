@@ -7,7 +7,7 @@ Description: Cyber Security Blocks is a comprehensive and visually engaging solu
 Requires at least: 6.1
 Tested up to: 6.7
 Requires PHP: 5.6
-Version: 2.9
+Version: 3.0
 License: GNU General Public License
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: cyber-security-blocks
@@ -51,6 +51,7 @@ button:focus{
     }
     .wp-block-navigation ul ul li a{
         border-bottom: 1px solid var(--wp--preset--color--border-color);
+        color: var(--wp--preset--color--primary) !important;
     }
     .wp-block-navigation ul li:last-child a{
         border-bottom: none;
@@ -162,7 +163,7 @@ button:focus{
         width: 42px;
     }
     .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation__submenu-icon svg {
-        stroke: var(--wp--preset--color--heading);
+        stroke: var(--wp--preset--color--black);
         display: block;
         width: 30px;
         height: 13px;
@@ -229,7 +230,10 @@ select {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+select option{
+    background: var(--wp--preset--color--base);
+    color: var(--wp--preset--color--foreground);
+}
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -431,11 +435,16 @@ input[type="submit"] {
 .wp-block-group.woocommerce.product{
     margin-block-start: 0;
 }
-.wc-block-grid__product,.woocommerce .products li,.wp-block-woocommerce-related-products li,.products-block-post-template li {
+.wc-block-product,
+.wc-block-grid__product,
+.woocommerce .products li,
+.wp-block-woocommerce-related-products li,
+.products-block-post-template li {
     text-align: center;
     padding: 10px !important;
     background: var(--wp--preset--color--section-bg);
 }
+
 .wc-block-grid__product{
     margin: 0 10px;
 }
@@ -634,6 +643,7 @@ p.scroll-top {
     background: transparent;
     padding: 0;
     border: none;
+    align-items: center;
 }
 .search-block .wp-element-button:hover{
     background: transparent;

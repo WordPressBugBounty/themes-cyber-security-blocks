@@ -8,6 +8,7 @@
     gap: 20px;
     padding: 15px;
     margin-right: 20px;
+    margin-top: 10px;
 }
 .getting-started__header h2{
     margin: 0;
@@ -102,11 +103,22 @@
 }
 .pro-links {
     margin: 0px -2px;
+    margin-top: 15px;
+}
+.pro-links .bundle-btn{
+    margin-top: 10px;
+}
+.pro-links-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 .pro-links a{
     font-size: 12px !important;
     line-height: 2.5 !important;
     min-height: auto;
+    width: 100%;
+    text-align: center;
 }
 .notice-div{
     display: flex;
@@ -172,9 +184,6 @@
     .getting-started .box-right-main h3{
         text-align: center;
     }
-    .pro-links{
-        text-align: center;
-    }
     .notice-div{
         display: block;
         text-align: center;
@@ -195,11 +204,14 @@
     }
 }
 @media screen and (max-width:575px){
-    .getting-started__header .button-primary,.pro-links a {
+    .getting-started__header .button-primary{
         margin-bottom: 3px !important;
     }
     .getting-started .box-left-main,
     .getting-started .box-right-main {
         width: 91%;
+    }
+    .pro-links a{
+        font-size: 11px !important;
     }
 }

@@ -17,14 +17,18 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"50%","className":"nav-block","style":{"spacing":{"padding":{"left":"var:preset|spacing|40"}}}} -->
-<div class="wp-block-column is-vertically-aligned-center nav-block" style="padding-left:var(--wp--preset--spacing--40);flex-basis:50%"><!-- wp:navigation {"textColor":"white","overlayBackgroundColor":"section-bg","overlayTextColor":"heading","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"style":{"typography":{"fontStyle":"normal","fontWeight":"500","textTransform":"uppercase"}},"layout":{"type":"flex","justifyContent":"right"}} -->
+<div class="wp-block-column is-vertically-aligned-center nav-block" style="padding-left:var(--wp--preset--spacing--40);flex-basis:50%"><!-- wp:navigation {"textColor":"white","overlayBackgroundColor":"white","overlayTextColor":"black","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"style":{"typography":{"fontStyle":"normal","fontWeight":"500","textTransform":"uppercase"}},"layout":{"type":"flex","justifyContent":"right"}} -->
 <!-- wp:navigation-link {"label":"Home","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
 <!-- wp:navigation-link {"label":"services","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
 <!-- wp:navigation-link {"label":"case studies","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"pages","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-submenu {"label":"Pages","type":"","url":"#","kind":"custom"} -->
+	<!-- wp:navigation-link {"label":"Page 1","type":"","url":"#","kind":"custom","className":""} /-->
+
+	<!-- wp:navigation-link {"label":"Page 2","type":"","url":"#","kind":"custom","className":""} /-->
+<!-- /wp:navigation-submenu -->
 
 <!-- wp:navigation-link {"label":"Blog","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
