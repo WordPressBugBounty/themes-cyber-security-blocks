@@ -8,7 +8,7 @@
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"60px","bottom":"40px","right":"20px","left":"20px"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide" style="padding-top:60px;padding-right:20px;padding-bottom:40px;padding-left:20px"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"160px","letterSpacing":"15px","lineHeight":"1"}},"textColor":"primary","className":"error-heading"} -->
-<h2 class="wp-block-heading has-text-align-center error-heading has-primary-color has-text-color" style="font-size:160px;letter-spacing:15px;line-height:1">404</h2>
+<h2 class="wp-block-heading has-text-align-center error-heading has-primary-color has-text-color" style="font-size:160px;letter-spacing:15px;line-height:1"><?php esc_html_e('404','cyber-security-blocks'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"letterSpacing":"2px","lineHeight":"1.2"}},"fontSize":"gigantic"} -->

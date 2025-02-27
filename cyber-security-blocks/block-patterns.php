@@ -13,13 +13,13 @@
  * @return void
  */
 function cyber_security_blocks_register_block_patterns() {
-	$block_pattern_categories = array(
+	$cyber_security_blocks_block_pattern_categories = array(
 		'cyber-security-blocks'    => array( 'label' => __( 'Cyber Security Blocks', 'cyber-security-blocks' ) ),
 	);
 
-	$block_pattern_categories = apply_filters( 'cyber_security_blocks_block_pattern_categories', $block_pattern_categories );
+	$cyber_security_blocks_block_pattern_categories = apply_filters( 'cyber_security_blocks_block_pattern_categories', $cyber_security_blocks_block_pattern_categories );
 
-	foreach ( $block_pattern_categories as $name => $properties ) {
+	foreach ( $cyber_security_blocks_block_pattern_categories as $name => $properties ) {
 		if ( ! WP_Block_Pattern_Categories_Registry::get_instance()->is_registered( $name ) ) {
 			register_block_pattern_category( $name, $properties );
 		}
