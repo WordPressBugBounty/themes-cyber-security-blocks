@@ -50,6 +50,7 @@ function cyber_security_blocks_guide() {
 		</div>
 		<div class="header-box-right">
 			<div class="btn_box">
+				<a class="button-primary" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_FREE_DOC ); ?>" target="_blank"><?php esc_html_e('Documentation', 'cyber-security-blocks'); ?></a>
 				<a class="button-primary" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_SUPPORT ); ?>" target="_blank"><?php esc_html_e('Support', 'cyber-security-blocks'); ?></a>
 				<a class="button-primary" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_REVIEW ); ?>" target="_blank"><?php esc_html_e('Review', 'cyber-security-blocks'); ?></a>
 			</div>

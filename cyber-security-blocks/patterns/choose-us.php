@@ -19,8 +19,8 @@
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"style":{"typography":{"textTransform":"none","fontStyle":"normal","fontWeight":"700","fontSize":"40px"}},"className":"wp-block-heading has-text-align-left has-jost-font-family","fontFamily":"jost"} -->
-<h2 class="wp-block-heading has-text-align-left has-jost-font-family" style="font-size:40px;font-style:normal;font-weight:700;text-transform:none"><?php esc_html_e('We are your trusted parter in Cyber security and IT sector','cyber-security-blocks'); ?></h2>
+<!-- wp:heading {"style":{"typography":{"textTransform":"none","fontStyle":"normal","fontWeight":"700","fontSize":"40px"}},"className":"wp-block-heading has-jost-font-family","fontFamily":"jost"} -->
+<h2 class="wp-block-heading has-jost-font-family" style="font-size:40px;font-style:normal;font-weight:700;text-transform:none"><?php esc_html_e('We are your trusted parter in Cyber security and IT sector','cyber-security-blocks'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

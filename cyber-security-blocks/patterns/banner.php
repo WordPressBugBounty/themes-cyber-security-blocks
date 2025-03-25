@@ -20,8 +20,8 @@
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"style":{"typography":{"textTransform":"capitalize","fontStyle":"normal","fontWeight":"700","fontSize":"50px"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","className":"wp-block-heading has-text-align-left has-jost-font-family","fontFamily":"jost"} -->
-<h2 class="wp-block-heading has-text-align-left has-jost-font-family has-white-color has-text-color has-link-color" style="font-size:50px;font-style:normal;font-weight:700;text-transform:capitalize"><?php esc_html_e('We Provide The Best Cyber Security','cyber-security-blocks'); ?></h2>
+<!-- wp:heading {"style":{"typography":{"textTransform":"capitalize","fontStyle":"normal","fontWeight":"700","fontSize":"50px"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","className":"wp-block-heading has-jost-font-family","fontFamily":"jost"} -->
+<h2 class="wp-block-heading has-jost-font-family has-white-color has-text-color has-link-color" style="font-size:50px;font-style:normal;font-weight:700;text-transform:capitalize"><?php esc_html_e('We Provide The Best Cyber Security','cyber-security-blocks'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->

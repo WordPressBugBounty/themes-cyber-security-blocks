@@ -4,7 +4,7 @@ Contributors: pewilliams
 Requires at least: 6.1
 Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 3.1
+Stable tag: 3.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: blog, portfolio, e-commerce, one-column, two-columns, custom-colors, custom-menu, custom-logo, sticky-post, threaded-comments, right-sidebar, left-sidebar, grid-layout, custom-background, rtl-language-support, featured-images, wide-blocks, editor-style, full-site-editing, block-patterns, block-styles, style-variations, template-editing, translation-ready
@@ -186,3 +186,7 @@ Cyber Security Blocks is distributed under the terms of the GNU GPL
 = 3.1 =
 * rsolved resonsive menu issue.
 * Did Prefixing.
+
+= 3.2 =
+* Added RTL langauge support tag.
+* Updated get start.

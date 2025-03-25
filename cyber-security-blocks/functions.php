@@ -60,6 +60,8 @@ function cyber_security_blocks_scripts() {
 
 	// script.js
 	wp_enqueue_script('cyber-security-blocks-main-script', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), '1.0.0', true);
+
+    wp_style_add_data( 'cyber-security-blocks-basic-style', 'rtl', 'replace' );
 }
 add_action( 'wp_enqueue_scripts', 'cyber_security_blocks_scripts' );
 
