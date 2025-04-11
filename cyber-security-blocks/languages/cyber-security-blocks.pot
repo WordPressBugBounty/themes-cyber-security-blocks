@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Cyber Security Blocks 3.2\n"
+"Project-Id-Version: Cyber Security Blocks 3.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/cyber-security-blocks\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-03-21T12:44:51+05:30\n"
+"POT-Creation-Date: 2025-04-10T18:54:10+05:30\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: cyber-security-blocks\n"
@@ -162,8 +162,7 @@ msgid "Supper Fast"
 msgstr ""
 
 #: inc/customizer/customizer.php:67
-#: inc/dashboard/dashboard.php:91
-msgid "Wordpress Theme Bundle (100+ Themes at Just $89)"
+msgid "WP Theme Bundle (120+ Themes)"
 msgstr ""
 
 #: inc/dashboard/dashboard.php:14
@@ -233,6 +232,10 @@ msgstr ""
 
 #: inc/dashboard/dashboard.php:78
 msgid "Check the theme documentation to easily set up your website."
+msgstr ""
+
+#: inc/dashboard/dashboard.php:91
+msgid "Wordpress Theme Bundle (120+ Themes at Just $89)"
 msgstr ""
 
 #: inc/TGM/class-tgm-plugin-activation.php:327
@@ -1314,6 +1317,26 @@ msgstr ""
 #: theme.json
 msgctxt "Gradient name"
 msgid "Diagonal primary to ternary"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Figtree"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Outfit"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Lora"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
 msgstr ""
 
 #: theme.json

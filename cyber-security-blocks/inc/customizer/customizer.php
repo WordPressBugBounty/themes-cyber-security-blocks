@@ -64,7 +64,7 @@ if (class_exists('WP_Customize_Control') && !class_exists('Cyber_Security_Blocks
                 </ul>
             </div>
             <div class="col-md upsell-btn upsell-btn-bottom">
-                <a href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUNDLE_BTN ); ?>" target="blank" class="btn btn-success btn"><?php esc_html_e('Wordpress Theme Bundle (100+ Themes at Just $89)','cyber-security-blocks');?> </a>
+                <a href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUNDLE_BTN ); ?>" target="blank" class="btn btn-success btn"><?php esc_html_e('WP Theme Bundle (120+ Themes)','cyber-security-blocks');?> </a>
             </div>
         </label>
     <?php } }

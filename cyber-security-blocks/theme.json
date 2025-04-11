@@ -210,89 +210,117 @@
         "typography": {
             "fontFamilies": [
                 {
+                    "fontFamily": "\"Figtree\", sans-serif",
+                    "name": "Figtree",
+                    "slug": "figtree",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Figtree",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "300 900",
+                            "src": [
+                                "file:./assets/fonts/figtree/Figtree-VariableFont_wght.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Figtree",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "300 900",
+                            "src": [
+                                "file:./assets/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Outfit\", sans-serif",
+                    "name": "Outfit",
+                    "slug": "outfit",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/outfit/Outfit-VariableFont_wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Lora\", serif",
+                    "name": "Lora",
+                    "slug": "lora",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Lora",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400 700",
+                            "src": [
+                                "file:./assets/fonts/lora/Lora-VariableFont_wght.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Lora",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "400 700",
+                            "src": [
+                                "file:./assets/fonts/lora/Lora-Italic-VariableFont_wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Inter\", sans-serif",
+                    "name": "Inter",
+                    "slug": "inter",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Inter",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/inter/Inter-VariableFont_opsz,wght.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/inter/Inter-Italic-VariableFont_opsz,wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
                     "fontFamily": "\"Jost\", sans-serif",
                     "name": "Jost",
                     "slug": "jost",
                     "fontFace": [
                         {
                             "fontFamily": "Jost",
-                            "fontWeight": "100",
+                            "fontStretch": "normal",
                             "fontStyle": "normal",
-                            "fontStretch": "",
+                            "fontWeight": "100 900",
                             "src": [
-                                "file:./assets/fonts/Jost/static/Jost-Thin.ttf"
+                                "file:./assets/fonts/jost/Jost-VariableFont_wght.ttf"
                             ]
                         },
                         {
                             "fontFamily": "Jost",
-                            "fontWeight": "200",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "100 900",
                             "src": [
-                                "file:./assets/fonts/Jost/static/Jost-ExtraLight.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Jost",
-                            "fontWeight": "300",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Jost/static/Jost-Light.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Jost",
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Jost/static/Jost-Regular.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Jost",
-                            "fontWeight": "500",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Jost/static/Jost-Medium.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Jost",
-                            "fontWeight": "600",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Jost/static/Jost-SemiBold.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Jost",
-                            "fontWeight": "700",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Jost/static/Jost-Bold.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Jost",
-                            "fontWeight": "800",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Jost/static/Jost-ExtraBold.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Jost",
-                            "fontWeight": "900",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Jost/static/Jost-Black.ttf"
+                                "file:./assets/fonts/jost/Jost-Italic-VariableFont_wght.ttf"
                             ]
                         }
                     ]

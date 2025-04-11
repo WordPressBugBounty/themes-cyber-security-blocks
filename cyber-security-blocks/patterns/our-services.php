@@ -12,8 +12,8 @@
 <!-- /wp:spacer -->
 
 <!-- wp:group {"className":"our-services-small-heading","layout":{"type":"constrained","contentSize":"15%","justifyContent":"center"}} -->
-<div class="wp-block-group our-services-small-heading"><!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"primary","textColor":"white","fontSize":"small","fontFamily":"jost"} -->
-<h3 class="wp-block-heading has-text-align-center has-white-color has-primary-background-color has-text-color has-background has-link-color has-jost-font-family has-small-font-size" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30);font-style:normal;font-weight:600;text-transform:uppercase"><?php esc_html_e('our services','cyber-security-blocks'); ?></h3>
+<div class="wp-block-group our-services-small-heading"><!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"primary","textColor":"white","fontSize":"small"} -->
+<h3 class="wp-block-heading has-text-align-center has-white-color has-primary-background-color has-text-color has-background has-link-color has-small-font-size" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30);font-style:normal;font-weight:600;text-transform:uppercase"><?php esc_html_e('our services','cyber-security-blocks'); ?></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -186,8 +186,8 @@
 <!-- /wp:spacer -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"textColor":"white","gradient":"ternary-to-primary","className":"has-source-sans-3-font-family","style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"capitalize"},"border":{"radius":"5px"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"fontSize":"extra-small","fontFamily":"jost"} -->
-<div class="wp-block-button has-custom-font-size has-source-sans-3-font-family has-jost-font-family has-extra-small-font-size" style="font-style:normal;font-weight:600;text-transform:capitalize"><a class="wp-block-button__link has-white-color has-ternary-to-primary-gradient-background has-text-color has-background has-link-color wp-element-button" style="border-radius:5px"><?php esc_html_e('View All Services','cyber-security-blocks'); ?></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"white","gradient":"ternary-to-primary","style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"capitalize"},"border":{"radius":"5px"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"fontSize":"extra-small"} -->
+<div class="wp-block-button has-custom-font-size has-extra-small-font-size" style="font-style:normal;font-weight:600;text-transform:capitalize"><a class="wp-block-button__link has-white-color has-ternary-to-primary-gradient-background has-text-color has-background has-link-color wp-element-button" style="border-radius:5px"><?php esc_html_e('View All Services','cyber-security-blocks'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

@@ -88,7 +88,7 @@ function cyber_security_blocks_guide() {
 						<a class="button-primary buynow" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUY_PRO ); ?>" target="_blank"><?php esc_html_e('Buy Now', 'cyber-security-blocks'); ?></a>
 						<a class="button-primary docs" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_PRO_DOC ); ?>" target="_blank"><?php esc_html_e('Documentation', 'cyber-security-blocks'); ?></a>
 					</div>
-						<a class="button-primary bundle-btn" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUNDLE_LINK ); ?>" target="_blank"><?php esc_html_e('Wordpress Theme Bundle (100+ Themes at Just $89)', 'cyber-security-blocks'); ?></a>
+						<a class="button-primary bundle-btn" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUNDLE_LINK ); ?>" target="_blank"><?php esc_html_e('Wordpress Theme Bundle (120+ Themes at Just $89)', 'cyber-security-blocks'); ?></a>
 				</div>
 				<ul style="padding-top:10px">
 					<li class="upsell-cyber_security_blocks"> <div class="dashicons dashicons-yes"></div> <?php esc_html_e('Responsive Design', 'cyber-security-blocks');?> </li>                 

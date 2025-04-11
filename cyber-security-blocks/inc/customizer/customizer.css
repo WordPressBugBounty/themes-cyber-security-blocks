@@ -23,20 +23,18 @@
 }
 .upsell-btn > .btn-success {
   color: #fff;
-  background: #10A6C0;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
 }
 .upsell-btn{
   margin-bottom: 20px;
   margin-top: 10px;
   text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background: #10A6C0;
 }
 .upsell-btn-bottom{
   margin-top:20px;
-}
-.upsell-btn > a.btn.btn-success.btn {
-  padding: 10px;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 10px;
 }

@@ -17,8 +17,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"textColor":"white","gradient":"ternary-to-primary","className":"has-source-sans-3-font-family","style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"capitalize"},"border":{"radius":"5px"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"fontSize":"extra-small","fontFamily":"jost"} -->
-<div class="wp-block-button has-custom-font-size has-source-sans-3-font-family has-jost-font-family has-extra-small-font-size" style="font-style:normal;font-weight:600;text-transform:capitalize"><a class="wp-block-button__link has-white-color has-ternary-to-primary-gradient-background has-text-color has-background has-link-color wp-element-button" style="border-radius:5px"><?php esc_html_e('Get Started','cyber-security-blocks'); ?></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"white","gradient":"ternary-to-primary","style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"capitalize"},"border":{"radius":"5px"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"fontSize":"extra-small"} -->
+<div class="wp-block-button has-custom-font-size has-extra-small-font-size" style="font-style:normal;font-weight:600;text-transform:capitalize"><a class="wp-block-button__link has-white-color has-ternary-to-primary-gradient-background has-text-color has-background has-link-color wp-element-button" style="border-radius:5px"><?php esc_html_e('Get Started','cyber-security-blocks'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
