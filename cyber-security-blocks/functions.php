@@ -38,6 +38,10 @@ function cyber_security_blocks_setup() {
 
 	// Enqueue editor styles.
 	add_editor_style( array( 'assets/css/editor-style.css' ) );
+
+    require get_parent_theme_file_path( '/inc/dashboard/dashboard.php' );
+
+    require get_parent_theme_file_path( '/inc/customizer/customizer.php' );
 	
 }
 endif; // cyber_security_blocks_setup
@@ -65,81 +69,27 @@ function cyber_security_blocks_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'cyber_security_blocks_scripts' );
 
-// Get start function
-
 function cyber_security_blocks_enqueue_admin_script($hook) {
-    // Admin JS
-    wp_enqueue_script('cyber-security-blocks-admin-js', get_theme_file_uri('/inc/dashboard/admin.js'), array('jquery'), true);
-    wp_localize_script(
-        'cyber-security-blocks-admin-js',
-        'cyber_security_blocks',
-        array(
-            'admin_ajax'    =>  admin_url('admin-ajax.php'),
-            'wpnonce'           =>  wp_create_nonce('cyber_security_blocks_dismissed_notice_nonce')
-        )
-    );
-    wp_enqueue_script('cyber-security-blocks-admin-js');
-
-    wp_localize_script( 'cyber-security-blocks-admin-js', 'cyber_security_blocks_scripts_localize',
-        array( 'ajax_url' => admin_url( 'admin-ajax.php' ) )
-    );
+    // Enqueue admin JS for notices
+    wp_enqueue_script('cyber-security-blocks-welcome-notice', get_template_directory_uri() . '/inc/dashboard/cyber-security-blocks-welcome-notice.js', array('jquery'), '', true);
+    
+    // Localize script to pass data to JavaScript
+    wp_localize_script('cyber-security-blocks-welcome-notice', 'cyber_security_blocks_localize', array(
+        'ajax_url' => admin_url('admin-ajax.php'),
+        'nonce' => wp_create_nonce('cyber_security_blocks_welcome_nonce'),
+        'dismiss_nonce' => wp_create_nonce('cyber_security_blocks_welcome_nonce'), // Nonce for dismissal
+        'redirect_url' => admin_url('themes.php?page=cyber-security-blocks-guide-page')
+    ));
 }
 add_action('admin_enqueue_scripts', 'cyber_security_blocks_enqueue_admin_script');
 
-//dismiss function 
-add_action( 'wp_ajax_cyber_security_blocks_dismissed_notice_handler', 'cyber_security_blocks_ajax_notice_dismiss_fuction' );
-
-function cyber_security_blocks_ajax_notice_dismiss_fuction() {
-    if (!wp_verify_nonce($_POST['wpnonce'], 'cyber_security_blocks_dismissed_notice_nonce')) {
-        exit;
-    }
-    if ( isset( $_POST['type'] ) ) {
-        $type = sanitize_text_field( wp_unslash( $_POST['type'] ) );
-        update_option( 'dismissed-' . $type, TRUE );
-    }
+function cyber_security_blocks_admin_theme_style() {
+   wp_enqueue_style('cyber-security-blocks-custom-admin-style', esc_url(get_template_directory_uri()) . '/inc/dashboard/dashboard.css');
 }
-//get start box
-function cyber_security_blocks_custom_admin_notice() {
-    // Check if the notice is dismissed
-    if ( ! get_option('dismissed-get_started_notice', FALSE ) )  {
-        // Check if not on the theme documentation page
-        $cyber_security_blocks_current_screen = get_current_screen();
-        if ($cyber_security_blocks_current_screen && $cyber_security_blocks_current_screen->id !== 'appearance_page_cyber-security-blocks-guide-page') {
-            $cyber_security_blocks_theme = wp_get_theme();
-            ?>
-            <div class="notice notice-info is-dismissible" data-notice="get_started_notice">
-                <div class="notice-div">
-                    <div>
-                        <p class="theme-name"><?php _e('Cyber Security Blocks', 'cyber-security-blocks'); ?></p>
-                        <p><?php _e('For information and detailed instructions, check out our theme documentation.', 'cyber-security-blocks'); ?></p>
-                    </div>
-                    <div class="notice-buttons-box">
-                        <a class="button-primary livedemo" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_LIVE_DEMO ); ?>" target="_blank"><?php esc_html_e('Live Demo', 'cyber-security-blocks'); ?></a>
-                        <a class="button-primary buynow" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUY_PRO ); ?>" target="_blank"><?php esc_html_e('Buy Now', 'cyber-security-blocks'); ?></a>
-                        <a class="button-primary theme-install" href="themes.php?page=cyber-security-blocks-guide-page"><?php _e('Begin Installation', 'cyber-security-blocks'); ?></a> 
-                    </div>
-                </div>
-            </div>
-        <?php
-        }
-    }
-}
-add_action('admin_notices', 'cyber_security_blocks_custom_admin_notice');
-
-//after switch theme
-add_action('after_switch_theme', 'cyber_security_blocks_after_switch_theme');
-function cyber_security_blocks_after_switch_theme () {
-    update_option('dismissed-get_started_notice', FALSE );
-}
-//get-start-function-end//
+add_action('admin_enqueue_scripts', 'cyber_security_blocks_admin_theme_style');
 
 // Block Patterns.
 require get_template_directory() . '/block-patterns.php';
-
-require get_parent_theme_file_path( '/inc/dashboard/dashboard.php' );
-
 require get_template_directory() . '/custom-setting.php';
-
-require get_parent_theme_file_path( '/inc/customizer/customizer.php' );
-
 require get_template_directory() .'/inc/TGM/tgm.php';
+require_once get_template_directory() . '/inc/dashboard/welcome-notice.php';

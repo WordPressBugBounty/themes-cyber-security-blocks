@@ -5,11 +5,6 @@ function cyber_security_blocks_gettingstarted() {
 	add_theme_page( esc_html__('Begin Installation', 'cyber-security-blocks'), esc_html__('Begin Installation', 'cyber-security-blocks'), 'edit_theme_options', 'cyber-security-blocks-guide-page', 'cyber_security_blocks_guide');
 }
 
-function cyber_security_blocks_admin_theme_style() {
-   wp_enqueue_style('cyber-security-blocks-custom-admin-style', esc_url(get_template_directory_uri()) . '/inc/dashboard/dashboard.css');
-}
-add_action('admin_enqueue_scripts', 'cyber_security_blocks_admin_theme_style');
-
 if ( ! defined( 'CYBER_SECURITY_BLOCKS_SUPPORT' ) ) {
 define('CYBER_SECURITY_BLOCKS_SUPPORT',__('https://wordpress.org/support/theme/cyber-security-blocks/','cyber-security-blocks'));
 }
@@ -88,7 +83,7 @@ function cyber_security_blocks_guide() {
 						<a class="button-primary buynow" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUY_PRO ); ?>" target="_blank"><?php esc_html_e('Buy Now', 'cyber-security-blocks'); ?></a>
 						<a class="button-primary docs" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_PRO_DOC ); ?>" target="_blank"><?php esc_html_e('Documentation', 'cyber-security-blocks'); ?></a>
 					</div>
-						<a class="button-primary bundle-btn" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUNDLE_LINK ); ?>" target="_blank"><?php esc_html_e('Wordpress Theme Bundle (120+ Themes at Just $89)', 'cyber-security-blocks'); ?></a>
+						<a class="button-primary bundle-btn" href="<?php echo esc_url( CYBER_SECURITY_BLOCKS_BUNDLE_LINK ); ?>" target="_blank"><?php esc_html_e('WordPress Theme Bundle (120+ Themes at Just $89)', 'cyber-security-blocks'); ?></a>
 				</div>
 				<ul style="padding-top:10px">
 					<li class="upsell-cyber_security_blocks"> <div class="dashicons dashicons-yes"></div> <?php esc_html_e('Responsive Design', 'cyber-security-blocks');?> </li>                 

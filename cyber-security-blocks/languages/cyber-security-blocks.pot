@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Cyber Security Blocks 3.3\n"
+"Project-Id-Version: Cyber Security Blocks 3.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/cyber-security-blocks\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-04-10T18:54:10+05:30\n"
+"POT-Creation-Date: 2025-05-05T18:19:11+05:30\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: cyber-security-blocks\n"
@@ -17,7 +17,6 @@ msgstr ""
 #. Theme Name of the theme
 #: style.css
 #: block-patterns.php:17
-#: functions.php:113
 msgid "Cyber Security Blocks"
 msgstr ""
 
@@ -53,37 +52,18 @@ msgstr ""
 msgid "Enable Animations"
 msgstr ""
 
-#: functions.php:114
-msgid "For information and detailed instructions, check out our theme documentation."
-msgstr ""
-
-#: functions.php:117
-#: inc/dashboard/dashboard.php:87
-msgid "Live Demo"
-msgstr ""
-
-#: functions.php:118
-#: inc/dashboard/dashboard.php:88
-msgid "Buy Now"
-msgstr ""
-
-#: functions.php:119
-#: inc/dashboard/dashboard.php:5
-msgid "Begin Installation"
-msgstr ""
-
 #: inc/customizer/customizer.php:15
 #: inc/customizer/customizer.php:23
 msgid "CYBER SECURITY PREMIUM"
 msgstr ""
 
 #: inc/customizer/customizer.php:32
-#: inc/dashboard/dashboard.php:23
+#: inc/dashboard/dashboard.php:18
 msgid "https://www.ovationthemes.com/products/wordpress-cyber-security-theme"
 msgstr ""
 
 #: inc/customizer/customizer.php:34
-#: inc/dashboard/dashboard.php:35
+#: inc/dashboard/dashboard.php:30
 msgid "https://www.ovationthemes.com/products/wordpress-bundle"
 msgstr ""
 
@@ -92,72 +72,72 @@ msgid "UPGRADE CYBER SECURITY PREMIUM"
 msgstr ""
 
 #: inc/customizer/customizer.php:50
-#: inc/dashboard/dashboard.php:94
+#: inc/dashboard/dashboard.php:89
 msgid "Responsive Design"
 msgstr ""
 
 #: inc/customizer/customizer.php:51
-#: inc/dashboard/dashboard.php:95
+#: inc/dashboard/dashboard.php:90
 msgid "Demo Importer"
 msgstr ""
 
 #: inc/customizer/customizer.php:52
-#: inc/dashboard/dashboard.php:96
+#: inc/dashboard/dashboard.php:91
 msgid "Section Reordering"
 msgstr ""
 
 #: inc/customizer/customizer.php:53
-#: inc/dashboard/dashboard.php:97
+#: inc/dashboard/dashboard.php:92
 msgid "Contact Page Template"
 msgstr ""
 
 #: inc/customizer/customizer.php:54
-#: inc/dashboard/dashboard.php:98
+#: inc/dashboard/dashboard.php:93
 msgid "Multiple Blog Layouts"
 msgstr ""
 
 #: inc/customizer/customizer.php:55
-#: inc/dashboard/dashboard.php:99
+#: inc/dashboard/dashboard.php:94
 msgid "Unlimited Color Options"
 msgstr ""
 
 #: inc/customizer/customizer.php:56
-#: inc/dashboard/dashboard.php:100
+#: inc/dashboard/dashboard.php:95
 msgid "Cross Browser Support"
 msgstr ""
 
 #: inc/customizer/customizer.php:57
-#: inc/dashboard/dashboard.php:101
+#: inc/dashboard/dashboard.php:96
 msgid "Detailed Documentation Included"
 msgstr ""
 
 #: inc/customizer/customizer.php:58
-#: inc/dashboard/dashboard.php:102
+#: inc/dashboard/dashboard.php:97
 msgid "WPML Compatible (Translation Ready)"
 msgstr ""
 
 #: inc/customizer/customizer.php:59
-#: inc/dashboard/dashboard.php:103
+#: inc/dashboard/dashboard.php:98
 msgid "Woo-commerce Compatible"
 msgstr ""
 
 #: inc/customizer/customizer.php:60
-#: inc/dashboard/dashboard.php:104
+#: inc/dashboard/dashboard.php:99
 msgid "Full Support"
 msgstr ""
 
 #: inc/customizer/customizer.php:61
-#: inc/dashboard/dashboard.php:105
+#: inc/dashboard/dashboard.php:100
 msgid "10+ Sections"
 msgstr ""
 
 #: inc/customizer/customizer.php:62
-#: inc/dashboard/dashboard.php:106
+#: inc/dashboard/dashboard.php:101
 msgid "SEO Friendly"
 msgstr ""
 
 #: inc/customizer/customizer.php:63
-#: inc/dashboard/dashboard.php:107
+#: inc/dashboard/dashboard.php:102
 msgid "Supper Fast"
 msgstr ""
 
@@ -165,77 +145,102 @@ msgstr ""
 msgid "WP Theme Bundle (120+ Themes)"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:14
+#: inc/dashboard/dashboard.php:5
+#: inc/dashboard/welcome-notice.php:217
+msgid "Begin Installation"
+msgstr ""
+
+#: inc/dashboard/dashboard.php:9
 msgid "https://wordpress.org/support/theme/cyber-security-blocks/"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:17
+#: inc/dashboard/dashboard.php:12
 msgid "https://wordpress.org/support/theme/cyber-security-blocks/reviews/"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:20
+#: inc/dashboard/dashboard.php:15
 msgid "https://trial.ovationthemes.com/cyber-security-services/"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:26
+#: inc/dashboard/dashboard.php:21
 msgid "https://trial.ovationthemes.com/docs/ot-cyber-security-services-pro-doc/"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:29
+#: inc/dashboard/dashboard.php:24
 msgid "https://trial.ovationthemes.com/docs/ot-cyber-security-services-free-doc/"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:32
+#: inc/dashboard/dashboard.php:27
 msgid "Premium Cyber Security Theme"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:49
+#: inc/dashboard/dashboard.php:44
 msgid "Version: "
 msgstr ""
 
-#: inc/dashboard/dashboard.php:53
-#: inc/dashboard/dashboard.php:64
-#: inc/dashboard/dashboard.php:79
-#: inc/dashboard/dashboard.php:89
+#: inc/dashboard/dashboard.php:48
+#: inc/dashboard/dashboard.php:59
+#: inc/dashboard/dashboard.php:74
+#: inc/dashboard/dashboard.php:84
 msgid "Documentation"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:54
+#: inc/dashboard/dashboard.php:49
 msgid "Support"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:55
+#: inc/dashboard/dashboard.php:50
 msgid "Review"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:69
-#: inc/dashboard/dashboard.php:71
+#: inc/dashboard/dashboard.php:64
+#: inc/dashboard/dashboard.php:66
 msgid "Edit Your Site"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:70
+#: inc/dashboard/dashboard.php:65
 msgid "Now create your website with easy drag and drop powered by gutenburg."
 msgstr ""
 
-#: inc/dashboard/dashboard.php:73
-#: inc/dashboard/dashboard.php:75
+#: inc/dashboard/dashboard.php:68
+#: inc/dashboard/dashboard.php:70
 msgid "Visit Your Site"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:74
+#: inc/dashboard/dashboard.php:69
 msgid "To check your website click here"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:77
+#: inc/dashboard/dashboard.php:72
 msgid "Theme Documentation"
 msgstr ""
 
-#: inc/dashboard/dashboard.php:78
+#: inc/dashboard/dashboard.php:73
 msgid "Check the theme documentation to easily set up your website."
 msgstr ""
 
-#: inc/dashboard/dashboard.php:91
-msgid "Wordpress Theme Bundle (120+ Themes at Just $89)"
+#: inc/dashboard/dashboard.php:82
+#: inc/dashboard/welcome-notice.php:215
+msgid "Live Demo"
+msgstr ""
+
+#: inc/dashboard/dashboard.php:83
+#: inc/dashboard/welcome-notice.php:216
+msgid "Buy Now"
+msgstr ""
+
+#: inc/dashboard/dashboard.php:86
+msgid "WordPress Theme Bundle (120+ Themes at Just $89)"
+msgstr ""
+
+#: inc/dashboard/welcome-notice.php:52
+#: inc/dashboard/welcome-notice.php:90
+#: inc/TGM/tgm.php:11
+msgid "Ovation Elements"
+msgstr ""
+
+#: inc/dashboard/welcome-notice.php:212
+msgid "For information and detailed instructions, check out our theme documentation."
 msgstr ""
 
 #: inc/TGM/class-tgm-plugin-activation.php:327
@@ -642,10 +647,6 @@ msgstr ""
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/TGM/class-tgm-plugin-activation.php:3520
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
-
-#: inc/TGM/tgm.php:11
-msgid "Ovation Elements"
 msgstr ""
 
 #: patterns/404.php
