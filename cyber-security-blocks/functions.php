@@ -39,6 +39,11 @@ function cyber_security_blocks_setup() {
 	// Enqueue editor styles.
 	add_editor_style( array( 'assets/css/editor-style.css' ) );
 
+	if (! defined('CYBER_SECURITY_BLOCKS_VERSION')) {
+		// Replace the version number of the theme on each release.
+		define('CYBER_SECURITY_BLOCKS_VERSION', wp_get_theme()->get('Version'));
+	}
+
     require get_parent_theme_file_path( '/inc/dashboard/dashboard.php' );
 
     require get_parent_theme_file_path( '/inc/customizer/customizer.php' );
@@ -62,10 +67,15 @@ function cyber_security_blocks_scripts() {
 	//font-awesome
 	wp_enqueue_style( 'fontawesome', get_template_directory_uri() . '/assets/font-awesome/css/all.css', array(), '5.15.3' );
 
-	// script.js
-	wp_enqueue_script('cyber-security-blocks-main-script', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), '1.0.0', true);
-
     wp_style_add_data( 'cyber-security-blocks-basic-style', 'rtl', 'replace' );
+
+    //homepage slider
+	wp_enqueue_style('cyber-security-blocks-swiper-bundle-css', get_template_directory_uri() . '/assets/css/swiper-bundle.css', array(), CYBER_SECURITY_BLOCKS_VERSION);
+
+	wp_enqueue_script('cyber-security-blocks-swiper-bundle-js', get_template_directory_uri() . '/assets/js/swiper-bundle.js', array('jquery'), CYBER_SECURITY_BLOCKS_VERSION, true);
+
+	// script.js
+	wp_enqueue_script('cyber-security-blocks-main-script', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), CYBER_SECURITY_BLOCKS_VERSION, true);
 }
 add_action( 'wp_enqueue_scripts', 'cyber_security_blocks_scripts' );
 

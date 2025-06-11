@@ -7,7 +7,7 @@ Description: Cyber Security Blocks is a comprehensive and visually engaging solu
 Requires at least: 6.1
 Tested up to: 6.8
 Requires PHP: 5.6
-Version: 3.4
+Version: 3.5
 License: GNU General Public License
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: cyber-security-blocks
@@ -894,7 +894,7 @@ footer ::marker{
         justify-content: center !important;
     }
     .our-services-small-heading h3{
-        max-width: 40% !important;
+        max-width: 50% !important;
     }
     .choose-us-content{
         padding-right: 0px !important;
@@ -941,3 +941,118 @@ footer ::marker{
     }
 
 }
+
+/*faq*/
+.faq-section details{
+    border: 2px solid var(--wp--preset--color--heading);
+    padding: 5px 10px;
+}
+.faq-section details[open]{
+    border: 2px solid var(--wp--preset--color--primary);
+}
+.faq-section-cols .faq-section-main-box{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1399px){
+    .faq-section details{
+        font-size: 18px !important;
+    }
+}
+/*testimonial*/
+.tstimonial-box{
+    width: 100% !important;
+    transition: 0.5s;
+}
+.testimonail-main-img img{
+    border: 2px solid transparent;
+    transition: 0.5s;
+    width: 60px;
+    height: 60px;
+}
+.tstimonial-box h6,.tstimonial-box p{
+    transition: 0.5s;
+}
+.tstimonial-box:hover {
+    background: var(--wp--preset--gradient--ternary-to-primary);
+    transition: 0.5s;
+}
+.tstimonial-box:hover .testimonail-main-img img{
+    border: 2px solid var(--wp--preset--color--white);
+}
+.tstimonial-box:hover h6,.tstimonial-box:hover p{
+    color: var(--wp--preset--color--white) !important;
+}
+/*testimnail swiper css start*/
+.wp-block-group.cyber-security-blocks-testimonial-swiper {
+  overflow: hidden;
+  position: relative;
+}
+.wp-block-group.cyber-security-blocks-testimonial-swiper .swiper-wrapper{
+    gap: 30px;
+}
+.cyber-security-blocks-testimonial-swiper .swiper-slide {
+  display: flex;
+  margin-block-start: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.wp-block-group.cyber-security-blocks-testimonial-swiper-controls {
+  position: unset;
+}
+.cyber-security-blocks-testimonial-swiper-controls .cyber-security-blocks-testimonial-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0 !important;
+}
+.cyber-security-blocks-testimonial-swiper-controls .cyber-security-blocks-testimonial-pagination.swiper-pagination-clickable.swiper-pagination-bullets span.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: var(--wp--preset--color--white);
+}
+.cyber-security-blocks-testimonial-swiper-controls .cyber-security-blocks-testimonial-pagination.swiper-pagination-clickable.swiper-pagination-bullets span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: var(--wp--preset--color--primary);
+}
+.cyber-security-blocks-testimonial-swiper-controls .swiper-button-prev.cyber-security-blocks-testimonial-swiper-button-prev,
+.cyber-security-blocks-testimonial-swiper-controls .swiper-button-next.cyber-security-blocks-testimonial-swiper-button-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+  background: transparent;
+  color: var(--wp--preset--color--primary);
+  transition: all ease 0.23s;
+  opacity: 0 !important;
+  top: 50%;
+  margin: -20px 0 0 0;
+}
+.cyber-security-blocks-testimonial-swiper-controls .swiper-button-prev.cyber-security-blocks-testimonial-swiper-button-prev{
+    left: 0;
+}
+.cyber-security-blocks-testimonial-swiper-controls .swiper-button-next.cyber-security-blocks-testimonial-swiper-button-next{
+    right: 0;
+}
+.cyber-security-blocks-testimonial-swiper-controls .swiper-button-prev.cyber-security-blocks-testimonial-swiper-button-prev:hover,
+.cyber-security-blocks-testimonial-swiper-controls .swiper-button-next.cyber-security-blocks-testimonial-swiper-button-next:hover {
+  background: transparent;
+  color: var(--wp--preset--color--heading);
+}
+.cyber-security-blocks-testimonial-swiper-controls .swiper-button-prev.cyber-security-blocks-testimonial-swiper-button-prev:after,
+.cyber-security-blocks-testimonial-swiper-controls .swiper-button-next.cyber-security-blocks-testimonial-swiper-button-next:after {
+  font-size: 30px;
+  font-weight: 900;
+}
+.cyber-security-blocks-testimonial-swiper-controls.wp-block-group.block-editor-block-list__layout .wp-block.wp-block-html {
+  display: none;
+}
+
+.cyber-security-blocks-testimonial-swiper-controls.wp-block-group.block-editor-block-list__layout .wp-block.is-selected.wp-block-html {
+  display: block !important;
+}
+/*testimonial swiper css end*/

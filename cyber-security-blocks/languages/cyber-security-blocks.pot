@@ -2,16 +2,16 @@
 # This file is distributed under the GNU General Public License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Cyber Security Blocks 3.4\n"
+"Project-Id-Version: Cyber Security Blocks 3.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/cyber-security-blocks\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-05T18:19:11+05:30\n"
+"POT-Creation-Date: 2025-06-10T13:11:30+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: cyber-security-blocks\n"
 
 #. Theme Name of the theme
@@ -253,11 +253,13 @@ msgstr ""
 
 #. translators: %s: plugin name.
 #: inc/TGM/class-tgm-plugin-activation.php:330
+#, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
 
 #. translators: %s: plugin name.
 #: inc/TGM/class-tgm-plugin-activation.php:332
+#, php-format
 msgid "Updating Plugin: %s"
 msgstr ""
 
@@ -267,6 +269,7 @@ msgstr ""
 
 #. translators: 1: plugin name(s).
 #: inc/TGM/class-tgm-plugin-activation.php:334
+#, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
@@ -274,6 +277,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/TGM/class-tgm-plugin-activation.php:340
+#, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
@@ -281,6 +285,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/TGM/class-tgm-plugin-activation.php:346
+#, php-format
 msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
 msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
 msgstr[0] ""
@@ -288,6 +293,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/TGM/class-tgm-plugin-activation.php:352
+#, php-format
 msgid "There is an update available for: %1$s."
 msgid_plural "There are updates available for the following plugins: %1$s."
 msgstr[0] ""
@@ -295,6 +301,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/TGM/class-tgm-plugin-activation.php:358
+#, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
@@ -302,6 +309,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/TGM/class-tgm-plugin-activation.php:364
+#, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
@@ -350,16 +358,19 @@ msgstr[1] ""
 
 #. translators: 1: plugin name.
 #: inc/TGM/class-tgm-plugin-activation.php:390
+#, php-format
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
 #. translators: 1: plugin name.
 #: inc/TGM/class-tgm-plugin-activation.php:392
+#, php-format
 msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
 msgstr ""
 
 #. translators: 1: dashboard link.
 #: inc/TGM/class-tgm-plugin-activation.php:394
+#, php-format
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
@@ -404,6 +415,7 @@ msgstr ""
 
 #. translators: %s: version number
 #: inc/TGM/class-tgm-plugin-activation.php:1982
+#, php-format
 msgid "TGMPA v%s"
 msgstr ""
 
@@ -453,12 +465,14 @@ msgstr ""
 
 #. translators: 1: install status, 2: update status
 #: inc/TGM/class-tgm-plugin-activation.php:2342
+#, php-format
 msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
 msgstr ""
 
 #. translators: 1: number of plugins.
 #: inc/TGM/class-tgm-plugin-activation.php:2388
+#, php-format
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
@@ -467,6 +481,7 @@ msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: inc/TGM/class-tgm-plugin-activation.php:2392
+#, php-format
 msgid "To Install <span class=\"count\">(%s)</span>"
 msgid_plural "To Install <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -474,6 +489,7 @@ msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: inc/TGM/class-tgm-plugin-activation.php:2396
+#, php-format
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -481,6 +497,7 @@ msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: inc/TGM/class-tgm-plugin-activation.php:2400
+#, php-format
 msgid "To Activate <span class=\"count\">(%s)</span>"
 msgid_plural "To Activate <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -529,16 +546,19 @@ msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
 #: inc/TGM/class-tgm-plugin-activation.php:2603
+#, php-format
 msgid "Install %2$s"
 msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
 #: inc/TGM/class-tgm-plugin-activation.php:2608
+#, php-format
 msgid "Update %2$s"
 msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
 #: inc/TGM/class-tgm-plugin-activation.php:2614
+#, php-format
 msgid "Activate %2$s"
 msgstr ""
 
@@ -588,16 +608,19 @@ msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/TGM/class-tgm-plugin-activation.php:3498
+#, php-format
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
 #. translators: 1: plugin name, 2: error message.
 #: inc/TGM/class-tgm-plugin-activation.php:3501
+#, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
 #. translators: 1: plugin name.
 #: inc/TGM/class-tgm-plugin-activation.php:3503
+#, php-format
 msgid "The installation of %1$s failed."
 msgstr ""
 
@@ -607,6 +630,7 @@ msgstr ""
 
 #. translators: 1: plugin name.
 #: inc/TGM/class-tgm-plugin-activation.php:3509
+#, php-format
 msgid "%1$s installed and activated successfully."
 msgstr ""
 
@@ -628,6 +652,7 @@ msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/TGM/class-tgm-plugin-activation.php:3512
+#, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
@@ -637,6 +662,7 @@ msgstr ""
 
 #. translators: 1: plugin name.
 #: inc/TGM/class-tgm-plugin-activation.php:3517
+#, php-format
 msgid "%1$s installed successfully."
 msgstr ""
 
@@ -646,6 +672,7 @@ msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/TGM/class-tgm-plugin-activation.php:3520
+#, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
@@ -835,6 +862,63 @@ msgstr ""
 
 #: patterns/choose-us.php:89
 msgid "Backup &amp; Recovery"
+msgstr ""
+
+#: patterns/faq-section.php
+msgctxt "Pattern title"
+msgid "FAQ Section"
+msgstr ""
+
+#: patterns/faq-section.php:16
+msgid "FAQS"
+msgstr ""
+
+#: patterns/faq-section.php:24
+msgid "What is cyber security and why is it important?"
+msgstr ""
+
+#: patterns/faq-section.php:25
+#: patterns/faq-section.php:31
+#: patterns/faq-section.php:37
+#: patterns/faq-section.php:43
+#: patterns/faq-section.php:53
+#: patterns/faq-section.php:59
+#: patterns/faq-section.php:65
+#: patterns/faq-section.php:71
+#: patterns/faq-section.php:77
+msgid "Consectetur adipiscing eltadip isngelitseddo eusmod tempor incididunt utlabore edolorema gnasdoeiusmodtempor incididunt utrices gravida. Consecte adipiscingelitadipiscing elitserissed."
+msgstr ""
+
+#: patterns/faq-section.php:30
+msgid "How can I protect my personal data online?"
+msgstr ""
+
+#: patterns/faq-section.php:36
+msgid "Do you offer 24/7 monitoring?"
+msgstr ""
+
+#: patterns/faq-section.php:42
+msgid "Can you prevent ransomware attacks?"
+msgstr ""
+
+#: patterns/faq-section.php:52
+msgid "Do you provide security audits?"
+msgstr ""
+
+#: patterns/faq-section.php:58
+msgid "Can you train our staff on cyber safety?"
+msgstr ""
+
+#: patterns/faq-section.php:64
+msgid "How quickly can you respond to threats?"
+msgstr ""
+
+#: patterns/faq-section.php:70
+msgid "How often do you update security measures?"
+msgstr ""
+
+#: patterns/faq-section.php:76
+msgid "How do I know if a website is secure?"
 msgstr ""
 
 #: patterns/footer.php
@@ -1049,150 +1133,42 @@ msgstr ""
 msgid "Related Products"
 msgstr ""
 
-#: styles/blue.json
-msgctxt "Style variation name"
-msgid "Blue"
+#: patterns/testimonial.php
+msgctxt "Pattern title"
+msgid "Testimonial"
 msgstr ""
 
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Base"
+#: patterns/testimonial.php:16
+msgid "TESTIMONIALS"
 msgstr ""
 
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Primary"
+#: patterns/testimonial.php:21
+msgid "Clients From 100+ Countries Say About Us"
 msgstr ""
 
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Ternary"
+#: patterns/testimonial.php:33
+msgid "Ava Mitchell"
 msgstr ""
 
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Primary Light"
+#: patterns/testimonial.php:37
+#: patterns/testimonial.php:57
+#: patterns/testimonial.php:77
+#: patterns/testimonial.php:97
+#: patterns/testimonial.php:117
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper ultricies urna et imperdiet et pulvinar in ullamcorper. Cursus tellus tincidunt elementum…"
 msgstr ""
 
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Headings"
+#: patterns/testimonial.php:53
+msgid "Rahul Desai"
 msgstr ""
 
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Secondary"
+#: patterns/testimonial.php:73
+#: patterns/testimonial.php:93
+msgid "Claire Benson"
 msgstr ""
 
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Second Bg"
-msgstr ""
-
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Body Text"
-msgstr ""
-
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Section Background"
-msgstr ""
-
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Footer Bg"
-msgstr ""
-
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Background"
-msgstr ""
-
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Foreground"
-msgstr ""
-
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Border Color"
-msgstr ""
-
-#: styles/blue.json
-#: styles/dark.json
-#: styles/red.json
-#: styles/sea-green.json
-#: theme.json
-msgctxt "Color name"
-msgid "Sidebar Shadow Color"
-msgstr ""
-
-#: styles/dark.json
-msgctxt "Style variation name"
-msgid "Dark"
-msgstr ""
-
-#: styles/red.json
-msgctxt "Style variation name"
-msgid "Red"
-msgstr ""
-
-#: styles/sea-green.json
-msgctxt "Style variation name"
-msgid "Sea Green"
+#: patterns/testimonial.php:113
+msgid "Liam Chen"
 msgstr ""
 
 #: theme.json
@@ -1318,6 +1294,132 @@ msgstr ""
 #: theme.json
 msgctxt "Gradient name"
 msgid "Diagonal primary to ternary"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Ternary"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Primary Light"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Headings"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Second Bg"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Body Text"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Section Background"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Footer Bg"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Border Color"
+msgstr ""
+
+#: theme.json
+#: styles/blue.json
+#: styles/dark.json
+#: styles/red.json
+#: styles/sea-green.json
+msgctxt "Color name"
+msgid "Sidebar Shadow Color"
 msgstr ""
 
 #: theme.json
@@ -1458,4 +1560,24 @@ msgstr ""
 #: theme.json
 msgctxt "Custom template name"
 msgid "Post No Header Image"
+msgstr ""
+
+#: styles/blue.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr ""
+
+#: styles/dark.json
+msgctxt "Style variation name"
+msgid "Dark"
+msgstr ""
+
+#: styles/red.json
+msgctxt "Style variation name"
+msgid "Red"
+msgstr ""
+
+#: styles/sea-green.json
+msgctxt "Style variation name"
+msgid "Sea Green"
 msgstr ""

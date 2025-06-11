@@ -530,3 +530,26 @@ footer ::marker{
 .footer-widgets li:hover a, .footer-widgets li:hover::marker {
     color: var(--wp--preset--color--primary);
 }
+
+/*faq*/
+.faq-section details{
+    border: 2px solid var(--wp--preset--color--heading);
+    padding: 5px 10px;
+}
+.faq-section details[open]{
+    border: 2px solid var(--wp--preset--color--primary);
+}
+.faq-section-cols .faq-section-main-box{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wp-block-group.cyber-security-blocks-testimonial-swiper .swiper-wrapper{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+.wp-block-group.cyber-security-blocks-testimonial-swiper .swiper-slide{
+    margin-top: 0 !important;
+}

@@ -68,6 +68,10 @@ Copyright, fontawesome
 License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
 https://fontawesome.com
 
+* Swiper
+LICENSE URL: https://github.com/nolimits4web/swiper/blob/master/LICENSE
+SOURCE URL: https://swiperjs.com
+
 * License
 Cyber Security Blocks WordPress Theme, Copyright 2023 pewilliams
 Cyber Security Blocks is distributed under the terms of the GNU GPL
@@ -197,3 +201,6 @@ Cyber Security Blocks is distributed under the terms of the GNU GPL
 = 3.4 =
 * Resolved Bugs.
 * Added plugin install code.
+
+= 3.5 =
+* Added homepage sections.
