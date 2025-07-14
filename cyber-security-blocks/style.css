@@ -7,7 +7,7 @@ Description: Cyber Security Blocks is a comprehensive and visually engaging solu
 Requires at least: 6.1
 Tested up to: 6.8
 Requires PHP: 5.6
-Version: 3.5
+Version: 3.6
 License: GNU General Public License
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: cyber-security-blocks
@@ -324,7 +324,6 @@ input[type="submit"] {
 .sidebar-box .wp-block-categories-list li,
 .sidebar-box .wp-block-page-list li{
     list-style: circle;
-
 }
 .sidebar-box .wp-block-archives-list li::marker,
 .sidebar-box .wp-block-categories-list li::marker,
@@ -344,6 +343,12 @@ input[type="submit"] {
 .sidebar-box .wp-block-tag-cloud a:hover{
     background: var(--wp--preset--color--background);
     color: var(--wp--preset--color--primary);
+}
+.sidebar-box ul li{
+    transition: all .6s ease-in-out;
+}
+.sidebar-box ul li:hover{
+    padding-left: 15px;
 }
 /*post css*/
 .post-title{
@@ -468,14 +473,31 @@ nav.woocommerce-MyAccount-navigation ul li:hover a{
     border-radius: 30px;
 }
 .woocommerce a.added_to_cart,
-.added_to_cart.wc-forward{
+.added_to_cart.wc-forward,
+.single-product .wp-block-woocommerce-store-notices .wc-forward{
     background-color: var(--wp--preset--color--primary);
     color: var(--wp--preset--color--white);
     border-radius: 0;
     padding: var(--wp--preset--spacing--30);
     text-decoration: none;
     display: inline-block;
-    
+    margin-top: 0;
+}
+.single-product .wp-block-woocommerce-store-notices .wc-forward{
+    background-color: var(--wp--preset--color--primary) !important;
+    color: var(--wp--preset--color--white) !important;
+    padding: 10px !important;
+    opacity: 1;
+}
+.single-product .wp-block-woocommerce-store-notices .wc-block-components-notice-banner,
+.single-product .wp-block-woocommerce-store-notices .wc-block-components-notice-banner .wc-block-components-notice-banner__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.woocommerce a.added_to_cart:hover, .added_to_cart.wc-forward:hover{
+    background-color: var(--wp--preset--color--heading);
+    color: var(--wp--preset--color--white);
 }
 .added_to_cart.wc-forward{
     margin-left: 10px;
@@ -602,11 +624,13 @@ p.scroll-top {
     justify-content: center;
     border-radius: 6px;
     z-index: 99;
+    transition: all .5s ease-in-out;
 }
 
 .scroll-top:hover::before {
     background: var(--wp--preset--color--white) !important;
     color: var(--wp--preset--color--primary);
+    margin-bottom: 10px;
 }
 /*header*/
 .custom-home-header .menu-header{
@@ -743,6 +767,9 @@ footer ::marker{
     }
     .archieve-meta time ,.archieve-meta .wp-block-post-author-name{
         font-size: 13px !important;
+    }
+    .search-no-results .wp-block-query-no-results, .single-post .wp-block-cover.inner-cover-img + .wp-block-group > .wp-block-group.alignwide > .wp-block-columns .wp-block-column:first-child{
+        margin-bottom: 30px;
     }
 }
 @media screen and (max-width:767px){
